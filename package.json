@@ -1,0 +1,53 @@
+{
+  "name": "pan-data",
+  "version": "0.1.0",
+  "description": "Locale data for phone numbers, addresses, names",
+  "keywords": [
+    "internationalization",
+    "i18n",
+    "localization",
+    "l10n",
+    "globalization",
+    "g11n",
+    "phone",
+    "phonenumber",
+    "address",
+    "name"
+  ],
+  "homepage": "https://github.com/pan-i18n/pan",
+  "bugs": "https://github.com/pan-i18n/pan/issues",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Edwin Hoogerbeets",
+    "web": "http://www.translationcircle.com/",
+    "email": "edwin@translationcircle.com"
+  },
+  "contributors": [
+    {
+      "name": "Edwin Hoogerbeets",
+      "email": "ehoogerbeets@gmail.com"
+    }
+  ],
+  "files": [
+    "data",
+    "specs",
+    "README.md",
+    "package.json",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pan-i18n/pan.git"
+  },
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "scripts": {
+    "clean": "git clean -f -d data specs",
+    "dist": "npm pack"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
