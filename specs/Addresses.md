@@ -20,7 +20,7 @@ This specification defines the schema of the data and metadata for addresses.
   * [Example, using Google Places API](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-addressform) 
 * iLib
   * Address Formatting and Parsing capabilities
-  * https://sourceforge.net/p/i18nlib/wiki/address/ 
+  * https://github.com/iLib-js/iLib/blob/development/docs/tutorial/address.md
 * UPU - Universal Postal Union
   * Example [Address layout page for Albania](http://www.upu.int/fileadmin/documentsFiles/activities/addressingUnit/albEn.pdf) - most all other regions can be found from the UPU "[Postal addressing systems in member countries](http://www.upu.int/en/activities/addressing/postal-addressing-systems-in-member-countries.html)" page
   * We looked at some [S42 address standard](http://www.upu.int/en/activities/addressing/s42-standard.html) syntax for a country and the level of detail supplied.
