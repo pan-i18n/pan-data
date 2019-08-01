@@ -2,6 +2,35 @@
 
 This specification defines the schema of the data and metadata for names.
 
+## Data Schema
+
+Here is an example data representation of a person's name:
+
+```javascript
+{
+    "given": "John",
+    "middle": "James",
+    "family": "Smith",
+    "nickname": "Jonny",
+    "honorific": "Dr.",
+    "suffix": "Jr."
+}
+```
+
+The full json schema can be found [here](../schemas/name-schema.json).
+
+## Format Data Schema
+
+## Meta-data Schema
+
+Meta-data about the fields is used to present input forms to the user.
+
+* Field names
+* Placeholder text
+* Default values
+* Tooltip text
+* Translations of field names
+
 ### Reference and Associated material from discussion 2019-07-19
 
 * Implementations

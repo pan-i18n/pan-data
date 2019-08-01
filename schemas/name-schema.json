@@ -1,0 +1,67 @@
+{
+    "$id": "http://github.com/pan-i18n/pan-data/schemas/name-schema.json",
+    "title": "root",
+    "items": [
+        {
+            "name": "given",
+            "type": "string",
+            "required": false,
+            "$comment": "The person's given name."
+        },
+        {
+            "name": "middle",
+            "type": "string",
+            "required": false,
+            "$comment": "The person's middle names."
+        },
+        {
+            "name": "family",
+            "type": "string",
+            "required": false,
+            "$comment": "The person's family name."
+        },
+        {
+            "name": "familyPhonetic",
+            "type": "string",
+            "required": false,
+            "$comment": "The person's family name given phonetically, often used for sorting purposes."
+        },
+        {
+            "name": "patronymic",
+            "type": "string",
+            "required": false,
+            "$comment": "The person's patronymic name."
+        },
+        {
+            "name": "nickname",
+            "type": "string",
+            "required": false,
+            "$comment": "The person's nickname."
+        },
+        {
+            "name": "prefix",
+            "type": "string",
+            "required": false,
+            "$comment": "Any prefixes to the person's name."
+        },
+        {
+            "name": "honorific",
+            "type": "string",
+            "required": false,
+            "$comment": "Honorific titles for a person."
+        },
+        {
+            "name": "suffix",
+            "type": "string",
+            "required": false,
+            "$comment": "Any suffixes to the person's given name."
+        },
+        {
+            "name": "gender",
+            "type": "string",
+            "values": ["male", "female", "other"],
+            "required": false,
+            "$comment": "The gender of the person, if known and required to format the name properly."
+        }
+    ]
+}
