@@ -30,6 +30,7 @@ Meta-data about the fields is used to present input forms to the user.
 * Default values
 * Tooltip text
 * Translations of field names
+* Validations
 
 ### Reference and Associated material from discussion 2019-07-19
 
