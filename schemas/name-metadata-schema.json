@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://github.com/pan-i18n/pan-data/schemas/name-schema.json",
+    "title": "root",
+    "type": "object",
+    "properties": {
+        "fields": {
+            "type": "object",
+            "$comment": "Information about input fields",
+            "properties": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                },
+                "minItems": 1
+            }
+        }
+    }
+}
