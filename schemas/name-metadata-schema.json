@@ -8,11 +8,132 @@
             "type": "object",
             "$comment": "Information about input fields",
             "properties": {
-                "type": "array",
-                "items": {
-                    "type": "string"
+                "given": {
+                    "type": "object",
+                    "$comment": "Metadata about the given name field.",
+                    "properties": {
+                        "label": {
+                            "type": "string"
+                        },
+                        "placeholder": {
+                            "type": "string"
+                        },
+                        "toolTip": {
+                            "type": "string"
+                        }
+                    },
+                    "required": ["label"]
                 },
-                "minItems": 1
+                "middle": {
+                    "$comment": "The person's middle names, possibly separated into an array of words. eg. [\"Maria\", \"Theresa\", \"Catherine\"]"
+                },
+                "family": {
+                    "$comment": "The person's family name, possibly separated into an array of words. eg. [\"van\", \"der\", \"Molen\"]"
+                },
+                "familyPhonetic": {
+                    "$comment": "The person's family name given phonetically, often used for sorting purposes."
+                },
+                "patronymic": {
+                    "$comment": "The person's patronymic name."
+                },
+                "nickname": {
+                    "$comment": "The person's nickname."
+                },
+                "prefix": {
+                    "$comment": "Any prefixes to the person's name."
+                },
+                "honorific": {
+                    "$comment": "Honorific titles for a person."
+                },
+                "suffix": {
+                    "$comment": "Any suffixes to the person's given name."
+                },
+                "gender": {
+                    "$comment": "The gender of the person, if known and required to format the name properly."
+                }
+            }
+        },
+        "formats": {
+            "type": "object",
+            "$comment": "List of formats commonly used in this locale in various politeness levels and styles.",
+            "properties": {
+                "formal": {
+                    "short": {
+                        "type": "string",
+                        "$comment": "Order and spacing for a short version of a person's name in this locale. Typically, this is the honorifics and the family name."
+                    },
+                    "long": {
+                        "type": "string",
+                        "$comment": "Order and spacing for a short version of a person's name in this locale. Typically, this is the honorifics, given, and family names."
+                    }
+                },
+                "normal": {
+                    "short": {
+                        "type": "string",
+                        "$comment": "Order and spacing for a short version of a person's name in this locale. Typically, this is only the given name and a short family name."
+                    },
+                    "medium": {
+                        "type": "string",
+                        "$comment": "Order and spacing for a short version of a person's name in this locale. Typically, this is only the given name, middle names, and a short family name."
+                    },
+                    "long": {
+                        "type": "string",
+                        "$comment": "Order and spacing for a short version of a person's name in this locale. Typically, this is only honorifics, prefixes, given name, middle names, and the family name."
+                    },
+                    "full": {
+                        "type": "string",
+                        "$comment": "Order and spacing for a short version of a person's name in this locale.  Typically, this is all the available parts of a person's name."
+                    }
+                },
+                "familiar": {
+                    "short": {
+                        "type": "string",
+                        "$comment": "Order and spacing for a short version of a person's name in this locale. Typically, this is only the given name, though in some locales it is the family name."
+                    },
+                    "long": {
+                        "type": "string",
+                        "$comment": "Order and spacing for a short version of a person's name in this locale. Typically, this is only given name, middle names, and a family name."
+                    }
+                }
+            }
+        },
+        "sortByHeadWord": {
+            "type": "boolean",
+            "$comment": "Whether or not this locale sorts family names by the head word (true) or the auxillary words (false)."
+        },
+        "conjunctions": {
+            "type": "array",
+            "$comment": "list of conjunction and disjunction words for names of multiple people or families",
+            "items": {
+                "type": "string"
+            }
+        },
+        "auxillaries": {
+            "type": "array",
+            "$comment": "List of auxillary words to the family names commonly used in this locale.",
+            "items": {
+                "type": "string"
+            }
+        },
+        "honorifics": {
+            "type": "array",
+            "$comment": "List of prefixes or suffixes that are used as honorific terms, such as 'Mr.' or '-san'.",
+            "items": {
+                "type": "string"
+            }
+        },
+        "prefixes": {
+            "type": "array",
+            "$comment": "List of non-honorific prefixes commonly used in this locale",
+            "items": {
+                "type": "string"
+            }
+        },
+        "suffixes": {
+            "type": "array",
+            "$comment": "List of non-honorific sufixes commonly used in this locale",
+            "items": {
+                "type": "string"
             }
         }
     }
