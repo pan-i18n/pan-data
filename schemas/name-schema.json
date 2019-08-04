@@ -28,7 +28,29 @@
             "description": "The person's middle names, possibly separated into an array of words. eg. [\"Maria\", \"Theresa\", \"Catherine\"]"
         },
         "family": {
-            "$ref": "#/definitions/stringOrArray",
+            "type": [
+                "string",
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "minItems": 1
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "maternal": {
+                            "$ref": "#/definitions/stringOrArray",
+                            "description": "The maternal family name"
+                        },
+                        "paternal": {
+                            "$ref": "#/definitions/stringOrArray",
+                            "description": "The paternal family name"
+                        }
+                    }
+                }
+            ],
             "description": "The person's family name, possibly separated into an array of words. eg. [\"van\", \"der\", \"Molen\"]"
         },
         "familyPhonetic": {

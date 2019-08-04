@@ -64,6 +64,52 @@ And for the familiar politeness level in English:
 
 The full json formats schema can be found [here](../schemas/name-formats-schema.json).
 
+### Name Pattern
+
+Name formats are given as template strings where:
+
+* Fields are named in full and enclosed in curly braces. eg "{given}"
+* Other characters are reproduced as is in the output. This is mostly used for
+whitespace, but in some circumstances, other characters may appear there such
+as punctuation characters. For example, a nickname may be enclosed in
+double quotes.
+
+The fields of the name are simply substituted into the template string as is. If
+any field is not available in the name data, it will be substituted with the empty
+string. This may leave multiple consecutive whitespace characters in the final string.
+Sequences of multiple whitespace characters should be squeezed to a single
+space character.
+
+In some locales, only subparts of a name field are substituted in to a template.
+For example, in Spain, it is common to have both a maternal and a paternal
+family name. In the short form of the name, only the paternal name is used. In
+this case, the field substitution pattern would be "{family.paternal}". The
+pattern "{family}" would still refer to the whole name, both maternal and
+paternal combined in the right order.
+
+### Example Formats File
+
+Here is how a formats file may look for the "en-US" locale:
+
+```
+{
+    "formal": {
+        "short": "{honorific} {family}",
+        "long": "{honorific} {given} {family}",
+    },
+    "normal": {
+        "short": "{honorific} {family}",
+        "medium": "{honorific} {given} {family}",
+        "long": "{honorific} {given} {family} {suffix}",
+        "full": "{prefix} {honorific} {given} {middle} {family} {suffix}",
+    },
+    "familiar": {
+        "short": "{given}",
+        "long": "{given} {family}",
+    }
+}
+```
+
 ## Meta-data Schema
 
 Meta-data about the fields is used to present input forms to the user and to parse
