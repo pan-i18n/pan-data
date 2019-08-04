@@ -67,50 +67,6 @@
                 }
             }
         },
-        "formats": {
-            "type": "object",
-            "description": "List of formats commonly used in this locale in various politeness levels and styles.",
-            "properties": {
-                "formal": {
-                    "short": {
-                        "type": "string",
-                        "description": "Order and spacing for a short version of a person's name in this locale. Typically, this is the honorifics and the family name."
-                    },
-                    "long": {
-                        "type": "string",
-                        "description": "Order and spacing for a short version of a person's name in this locale. Typically, this is the honorifics, given, and family names."
-                    }
-                },
-                "normal": {
-                    "short": {
-                        "type": "string",
-                        "description": "Order and spacing for a short version of a person's name in this locale. Typically, this is only the given name and a short family name."
-                    },
-                    "medium": {
-                        "type": "string",
-                        "description": "Order and spacing for a short version of a person's name in this locale. Typically, this is only the given name, middle names, and a short family name."
-                    },
-                    "long": {
-                        "type": "string",
-                        "description": "Order and spacing for a short version of a person's name in this locale. Typically, this is only honorifics, prefixes, given name, middle names, and the family name."
-                    },
-                    "full": {
-                        "type": "string",
-                        "description": "Order and spacing for a short version of a person's name in this locale.  Typically, this is all the available parts of a person's name."
-                    }
-                },
-                "familiar": {
-                    "short": {
-                        "type": "string",
-                        "description": "Order and spacing for a short version of a person's name in this locale. Typically, this is only the given name, though in some locales it is the family name."
-                    },
-                    "long": {
-                        "type": "string",
-                        "description": "Order and spacing for a short version of a person's name in this locale. Typically, this is only given name, middle names, and a family name."
-                    }
-                }
-            }
-        },
         "sortByHeadWord": {
             "type": "boolean",
             "description": "Whether or not this locale sorts family names by the head word (true) or the auxillary words (false)."
