@@ -136,6 +136,12 @@ Metadata can include:
     * List of possible suffixes
     * Whether or not this locale sorts family names by their head word or their
       auxillary words
+    * Whether or not this locale separates name fields using whitespace
+    * Whether or not this locale supports compound family name (such as
+      maternal/paternal or just multiple names. eg. "Mr. Conn Smythe"
+    * Lists of common family names. This is used mostly for parsing names in
+      Asian locales where the list of family names is restricted to a few hundred
+      names and more than 99% of people have one of those names.
 
 The full json metadata schema can be found [here](../schemas/name-metadata-schema.json).
 

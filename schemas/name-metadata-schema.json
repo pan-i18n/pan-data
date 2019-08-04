@@ -71,6 +71,14 @@
             "type": "boolean",
             "description": "Whether or not this locale sorts family names by the head word (true) or the auxillary words (false)."
         },
+        "compoundFamilyNames": {
+            "type": "boolean",
+            "description": "Whether or not this locale allows for compound family names."
+        },
+        "spaceSeparated": {
+            "type": "boolean",
+            "description": "Whether or not names in this locale are separated from each other with whitespace."
+        },
         "conjunctions": {
             "type": "array",
             "description": "list of conjunction and disjunction words for names of multiple people or families",
@@ -104,6 +112,15 @@
             "description": "List of non-honorific sufixes commonly used in this locale",
             "items": {
                 "type": "string"
+            }
+        },
+        "knownFamilyNames": {
+            "type": "object",
+            "description": "List of common family names used in this locale mapped to a romanization of those names",
+            "properties": {
+                "*": {
+                    "type": "string"
+                }
             }
         }
     }
