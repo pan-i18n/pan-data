@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://github.com/pan-i18n/pan-data/schemas/address-formats-schema.json",
+    "title": "addressFormats",
+    "description": "Format commonly used in for address in the county of this locale",
+    "type": "object",
+    "properties": {
+        "line1": {
+            "type": "string",
+            "description": "Template for things that go on the first address line"
+        },
+        "line2": {
+            "type": "string",
+            "description": "Template for things that go on the second address line"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://github.com/pan-i18n/pan-data/schemas/address-schema.json",
+    "title": "address",
+    "type": "object",
+    "properties": {
+        "streetAddress": {
+            "type": "string",
+            "description": "The street and premises number of the address"
+        },
+        "building": {
+            "type": "string",
+            "description": "The building name or number of the address"
+        },
+        "postOfficeBox": {
+            "type": "string",
+            "description": "The post office box information of this address"
+        },
+        "locality": {
+            "type": "string",
+            "description": "The name of the city/town/village of this address"
+        },
+        "dependentLocality": {
+            "type": "string",
+            "description": "The name of the dependent (sub) locality of this address"
+        },
+        "region": {
+            "type": "string",
+            "description": "The name of the state/province/etc. of this address"
+        },
+        "subregion": {
+            "type": "string",
+            "description": "The name of the subregion of this address"
+        },
+        "subsubregion": {
+            "type": "string",
+            "description": "The name of the subsubregion of this address"
+        },
+        "postalCode": {
+            "type": "string",
+            "description": "The postal code/postcode/zip code of the address"
+        },
+        "postOffice": {
+            "type": "string",
+            "description": "The name of the post office of the address"
+        },
+        "country": {
+            "type": "string",
+            "description": "The name of the country of this address"
+        },
+        "countryCode": {
+            "type": "string",
+            "description": "The ISO 3166 country code for the country in this address"
+        }
+    },
+    "minProperties": 1,
+    "dependencies": {
+        "countryCode": ["country"]
+    }
+} 
