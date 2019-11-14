@@ -2,6 +2,47 @@
 
 This specification defines the schema of the data and metadata for addresses.
 
+## Data Schema
+
+Here is an example data respresentation of an address:
+
+```javascript
+{
+    "streetAddress": "900 Jefferson Ave.",
+    "locality": "Redwood City",
+    "region": "California",
+    "regionCode": "US-CA",
+    "postalCode": "94063",
+    "country": "USA",
+    "countryCode": "US"
+}
+```
+
+The full json schema can be found [here](../schemas/address-schema.json).
+
+## Format Data Schema
+
+## Meta-data Schema
+
+Meta-data about the fields is used to present input forms to the user and to parse
+addresses into its constituents fields. One metadata file may exist for each locale or
+partial locale.
+
+Locale metadata files may inherit from another locale's metadata by using a "parent"
+property which gives the locale spec of the parent locale. In this case, the
+settings in the current file override any similar settings in the parent file. Any
+settings not mentioned in the current file are inherited from the parent. All files
+if they do not explicitly name a parent locale will inherit from the "root" locale.
+
+Metadata can include:
+
+* Metadata about each field
+    * Translated display name for labels
+    * Placeholder text for input fields
+    * Tooltip values when a user hovers their mouse over the input field
+* Extra information
+
+The full json metadata schema can be found [here](../schemas/address-metadata-schema.json).
 
 
 ### Reference and Associated material from discussion 2019-07-19
