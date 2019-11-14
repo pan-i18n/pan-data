@@ -15,7 +15,7 @@
                 },
                 "long": {
                     "type": "string",
-                    "description": "Order and spacing for a short version of a person's name in this locale. Typically, this is the honorifics, given, and family names."
+                    "description": "Order and spacing for a long version of a person's name in this locale. Typically, this is the honorifics, given, and family names."
                 }
             }
         },
@@ -29,15 +29,15 @@
                 },
                 "medium": {
                     "type": "string",
-                    "description": "Order and spacing for a short version of a person's name in this locale. Typically, this is only the given name, middle names, and a short family name."
+                    "description": "Order and spacing for a medium version of a person's name in this locale. Typically, this is only the given name, middle names, and a short family name."
                 },
                 "long": {
                     "type": "string",
-                    "description": "Order and spacing for a short version of a person's name in this locale. Typically, this is only honorifics, prefixes, given name, middle names, and the family name."
+                    "description": "Order and spacing for a long version of a person's name in this locale. Typically, this is only honorifics, prefixes, given name, middle names, and the family name."
                 },
                 "full": {
                     "type": "string",
-                    "description": "Order and spacing for a short version of a person's name in this locale.  Typically, this is all the available parts of a person's name."
+                    "description": "Order and spacing for a full version of a person's name in this locale.  Typically, this is all the available parts of a person's name."
                 }
             }
         },
@@ -51,7 +51,7 @@
                 },
                 "long": {
                     "type": "string",
-                    "description": "Order and spacing for a short version of a person's name in this locale. Typically, this is only given name, middle names, and a family name."
+                    "description": "Order and spacing for a long version of a person's name in this locale. Typically, this is only given name, middle names, and a family name."
                 }
             }
         }
