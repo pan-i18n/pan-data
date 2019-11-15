@@ -1,0 +1,96 @@
+{
+    "fields": {
+        "streetAddress": {
+            "placeholder": "Enter a street address",
+            "toolTip": "Street address"
+        },
+        "building": {
+            "placeholder": "Enter a building name or number",
+            "toolTip": "Building name or number"
+        },
+        "postOfficeBox": {
+            "placeholder": "Enter P.O. Box information",
+            "toolTip": "P.O. Box"
+        },
+        "locality": {
+            "label": "City",
+            "placeholder": "Enter the name of a city",
+            "toolTip": "City"
+        },
+        "dependentLocality": {
+            "label": "Dependent Locality",
+            "placeholder": "Enter the dependent locality",
+            "toolTip": "Enter the name of the dependent locality"
+        },
+        "region": {
+            "placeholder": "Enter the state",
+            "toolTip": "State"
+        },
+        "postalCode": {
+            "placeholder": "Enter the zip code",
+            "toolTip": "Zip Code"
+        },
+        "postOffice": {
+            "placeholder": "Enter a P.O. Box",
+            "toolTip": "P.O. Box"
+        },
+        "country": {
+            "placeholder": "Enter the country",
+            "toolTip": "Country"
+        }
+    },
+    "fieldNames": {
+        "Area": "Area",
+        "Autonomous Community": "Autonomous Community",
+        "Band": "Band",
+        "Borough": "Borough",
+        "Burgh": "Burgh",
+        "Canton": "Canton",
+        "City": "City",
+        "Constituency": "Constituency",
+        "Country": "Country",
+        "County": "County",
+        "Department": "Department",
+        "District": "District",
+        "Division": "Division",
+        "Dominium": "Dominium",
+        "Duchy": "Duchy",
+        "Emirate": "Emirate",
+        "Entity": "Entity",
+        "Hundred": "Hundred",
+        "Indian Reservation": "Indian Reservation",
+        "Indian Reserve": "Indian Reserve",
+        "Kingdom": "Kingdom",
+        "Local Council": "Local Council",
+        "Municipality": "Municipality",
+        "Oblast": "Oblast",
+        "Parish": "Parish",
+        "Post Code": "Post Code",
+        "Post Office": "Post Office",
+        "Post Town": "Post Town",
+        "Postal Code": "Postal Code",
+        "Prefecture": "Prefecture",
+        "Principality": "Principality",
+        "Province": "Province",
+        "Province or Region": "Province or Region",
+        "Province or Territory": "Province or Territory",
+        "Public Body": "Public Body",
+        "Rancheria": "Rancheria",
+        "Regional": "Regional",
+        "Regional County": "Regional County",
+        "Republic": "Republic",
+        "Riding": "Riding",
+        "Rural": "Rural",
+        "Shire": "Shire",
+        "Special Administrative Region": "Special Administrative Region",
+        "State": "State",
+        "Street Address": "Street Address",
+        "Territory": "Territory",
+        "Town": "Town",
+        "Township": "Township",
+        "Tribe": "Tribe",
+        "Village": "Village",
+        "Voivodeship": "Voivodeship",
+        "Zip Code": "Zip Code"
+    }
+}

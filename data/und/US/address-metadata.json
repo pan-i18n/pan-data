@@ -1,0 +1,10 @@
+{
+    "fieldNames": {
+        "streetAddress": "Street Address",
+        "locality": "City",
+        "region": "State",
+        "postalCode": "Zip Code",
+        "country": "Country",
+        "postOffice": "Post Office"
+    }
+}

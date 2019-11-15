@@ -22,6 +22,20 @@ The full json schema can be found [here](../schemas/address-schema.json).
 
 ## Format Data Schema
 
+Information used to format address for various purposes.
+
+### Domestic vs. International
+
+Domestic addresses do not need the country, as it is assumed that the country is the
+same as the current country. International addresses require the country. When the
+country is specified, the countryCode should also be specified as well.
+
+### Script
+
+A few locales use different format depending on the script. For example, in Hong Kong,
+if the address is written with the Chinese script, then the Chinese format is used.
+If the same address is written with the Latin script, then the English format is used..
+ 
 ## Meta-data Schema
 
 Meta-data about the fields is used to present input forms to the user and to parse
@@ -41,7 +55,8 @@ Metadata can include:
     * Placeholder text for input fields
     * Tooltip values when a user hovers their mouse over the input field
 * Extra information
-
+    * The name of the type of region, subregion, or subsubregion used in the country of this address
+    
 The full json metadata schema can be found [here](../schemas/address-metadata-schema.json).
 
 
