@@ -1,0 +1,78 @@
+{
+    "fields": {
+        "streetAddress": {
+            "placeholder": "Die Straße bitte eingeben",
+            "toolTip": "Straße"
+        },
+        "postOfficeBox": {
+            "placeholder": "Die Postfachinformationen bitte eingeben",
+            "toolTip": "Postfachinformationen"
+        },
+        "locality": {
+            "placeholder": "Die Stadt bitte eingeben",
+            "toolTip": "Die Stadt"
+        },
+        "postalCode": {
+            "placeholder": "Die Postleitzahl bitte eingeben",
+            "toolTip": "Die Postleitzahl"
+        },
+        "country": {
+            "placeholder": "Das Land bitte eingeben",
+            "toolTip": "Das Land"
+        }
+    },
+    "fieldNames": {
+        "Area": "Bereich",
+        "Autonomous Community": "Autonome Gemeinschaft",
+        "Band": "Stamm",
+        "Borough": "Bezirk",
+        "Burgh": "Burg",
+        "Canton": "Kanton",
+        "City": "Stadt",
+        "Constituency": "Wahlbezirk",
+        "Country": "Land",
+        "County": "Grafschaft",
+        "Department": "Abteilung",
+        "District": "Bezirk",
+        "Division": "Abteilung",
+        "Dominium": "Dominium",
+        "Duchy": "Herzogtum",
+        "Emirate": "Emirat",
+        "Entity": "Entität",
+        "Hundred": "Hundert",
+        "Indian Reservation": "Indianerreservat",
+        "Indian Reserve": "Indianerreservat",
+        "Kingdom": "Königreich",
+        "Local Council": "Lokaler Rat",
+        "Municipality": "Gemeinde",
+        "Oblast": "Oblast",
+        "Parish": "Pfarrei",
+        "Post Code": "Postleitzahl",
+        "Post Office": "Post",
+        "Post Town": "Poststadt",
+        "Postal Code": "Postleitzahl",
+        "Prefecture": "Präfektur",
+        "Principality": "Fürstentum",
+        "Province": "Provinz",
+        "Province or Region": "Provinz oder Region",
+        "Province or Territory": "Provinz oder Gebiet",
+        "Public Body": "Öffentlicher Körper",
+        "Rancheria": "Siedlung",
+        "Regional": "Regionaler",
+        "Regional County": "Regionaler Bezirk",
+        "Republic": "Republik",
+        "Riding": "Reiten",
+        "Rural": "Ländliches Gebiet",
+        "Shire": "Grafschaft",
+        "Special Administrative Region": "Sonderverwaltungsregion",
+        "State": "Bundesland",
+        "Street Address": "Straßenadresse",
+        "Territory": "Gebiet",
+        "Town": "Stadt",
+        "Township": "Gemeinde",
+        "Tribe": "Stamm",
+        "Village": "Dorf",
+        "Voivodeship": "Woiwodschaft",
+        "Zip Code": "Postleitzahl"
+    }
+}

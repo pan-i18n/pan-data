@@ -4,23 +4,13 @@
             "placeholder": "Enter a street address",
             "toolTip": "Street address"
         },
-        "building": {
-            "placeholder": "Enter a building name or number",
-            "toolTip": "Building name or number"
-        },
         "postOfficeBox": {
             "placeholder": "Enter P.O. Box information",
             "toolTip": "P.O. Box"
         },
         "locality": {
-            "label": "City",
             "placeholder": "Enter the name of a city",
             "toolTip": "City"
-        },
-        "dependentLocality": {
-            "label": "Dependent Locality",
-            "placeholder": "Enter the dependent locality",
-            "toolTip": "Enter the name of the dependent locality"
         },
         "region": {
             "placeholder": "Enter the state",
@@ -29,10 +19,6 @@
         "postalCode": {
             "placeholder": "Enter the zip code",
             "toolTip": "Zip Code"
-        },
-        "postOffice": {
-            "placeholder": "Enter a P.O. Box",
-            "toolTip": "P.O. Box"
         },
         "country": {
             "placeholder": "Enter the country",
