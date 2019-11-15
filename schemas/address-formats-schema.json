@@ -17,18 +17,22 @@
         "locale": {
             "type": "object",
             "description": "A mapping from a locale spec (usually a language + an optional script) to an address lines definition",
-            "properties": {
-                "style": {
-                    "type": "object",
-                    "description": "Define the address lines for this particular style",
-                    "properties": {
-                        "domestic": {
-                            "$ref": "#/definitions/lines",
-                            "description": "An array of lines in a formatted address for this locale and style"
-                        },
-                        "international": {
-                            "$ref": "#/definitions/lines",
-                            "description": "An array of lines in a formatted address for this locale and style"
+            "additionalProperties": {
+                "type": "object",
+                "description": "Locale specs to match against",
+                "properties": {
+                    "style": {
+                        "type": "object",
+                        "description": "Define the address lines for this particular style",
+                        "properties": {
+                            "domestic": {
+                                "$ref": "#/definitions/lines",
+                                "description": "An array of lines in a formatted address for this locale and style"
+                            },
+                            "international": {
+                                "$ref": "#/definitions/lines",
+                                "description": "An array of lines in a formatted address for this locale and style"
+                            }
                         }
                     }
                 }

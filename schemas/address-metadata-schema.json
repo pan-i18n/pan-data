@@ -8,6 +8,10 @@
             "type": "object",
             "description": "Metadata about a particular name field for constructing an input UI.",
             "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "The standard English name of this field for this country"
+                },
                 "required": {
                     "type": "boolean",
                     "description": "Whether or not this address field is required"
@@ -21,13 +25,17 @@
                             "description": "A regular expression that will match valid values intended to be used to validate free-form inputs"
                         },
                         "enum": {
-                            "type": "array",
+                            "type": "object",
                             "description": "A list of possible values for this field and the normalized value that they map to",
-                            "items": {
-                                "type": "object",
-                                "additionalProperties": {
-                                    "type": "string"
-                                }
+                            "additionalProperties": {
+                                "type": "string"
+                            }
+                        },
+                        "aliases": {
+                            "type": "object",
+                            "description": "A list of possible aliases for this field and the normalized value that they map to",
+                            "additionalProperties": {
+                                "type": "string"
                             }
                         }
                     }

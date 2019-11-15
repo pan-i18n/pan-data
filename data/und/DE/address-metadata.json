@@ -1,9 +1,22 @@
 {
-    "fieldNames": {
-        "streetAddress": "Street Address",
-        "locality": "City",
-        "postalCode": "Postal Code",
-        "country": "Country",
-        "postOffice": "Post Office"
+    "fieldTypes": {
+        "streetAddress": {
+            "name": "Street Address"
+        },
+        "locality": {
+            "name": "City",
+            "validation": {
+                "pattern": "[A-zßäöüÄÖÜ\\.\\-'\\/ ]+"
+            }
+        },
+        "postalCode": {
+            "name": "Postal Code",
+            "validation": {
+                "pattern": "[0-9]{5}"
+            }
+        },
+        "country": {
+            "name": "Country"
+        }
     }
 }
