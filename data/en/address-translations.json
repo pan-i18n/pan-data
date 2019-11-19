@@ -2,27 +2,33 @@
     "fields": {
         "streetAddress": {
             "placeholder": "Enter a street address",
-            "toolTip": "Street address"
+            "toolTip": "Street address",
+            "aria-label": "Input field in an address form to enter the street address"
         },
         "postOfficeBox": {
             "placeholder": "Enter P.O. Box information",
-            "toolTip": "P.O. Box"
+            "toolTip": "P.O. Box",
+            "aria-label": "Input field in an address form to enter the P.O. box"
         },
         "locality": {
             "placeholder": "Enter the name of a city",
-            "toolTip": "City"
+            "toolTip": "City",
+            "aria-label": "Input field in an address form to enter the city"
         },
         "region": {
             "placeholder": "Enter the state",
-            "toolTip": "State"
+            "toolTip": "State",
+            "aria-label": "Input field in an address form to enter the state"
         },
         "postalCode": {
             "placeholder": "Enter the zip code",
-            "toolTip": "Zip Code"
+            "toolTip": "Zip Code",
+            "aria-label": "Input field in an address form to enter the zip code"
         },
         "country": {
             "placeholder": "Enter the country",
-            "toolTip": "Country"
+            "toolTip": "Country",
+            "aria-label": "Input field in an address form to enter the name of the country"
         }
     },
     "fieldNames": {

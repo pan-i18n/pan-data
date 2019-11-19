@@ -2,23 +2,28 @@
     "fields": {
         "streetAddress": {
             "placeholder": "Die Straße bitte eingeben",
-            "toolTip": "Straße"
+            "toolTip": "Straße",
+            "aria-label": "Eingabeformularfeld in einem Adressformular zur Eingabe der Straße"
         },
         "postOfficeBox": {
             "placeholder": "Die Postfachinformationen bitte eingeben",
-            "toolTip": "Postfachinformationen"
+            "toolTip": "Postfachinformationen",
+            "aria-label": "Eingabeformularfeld in einem Adressformular zur Eingabe des Postfachs"
         },
         "locality": {
             "placeholder": "Die Stadt bitte eingeben",
-            "toolTip": "Die Stadt"
+            "toolTip": "Die Stadt",
+            "aria-label": "Eingabeformularfeld in einem Adressformular zur Eingabe der Stadt"
         },
         "postalCode": {
             "placeholder": "Die Postleitzahl bitte eingeben",
-            "toolTip": "Die Postleitzahl"
+            "toolTip": "Die Postleitzahl",
+            "aria-label": "Eingabeformularfeld in einem Adressformular zur Eingabe der Postleitzahl"
         },
         "country": {
             "placeholder": "Das Land bitte eingeben",
-            "toolTip": "Das Land"
+            "toolTip": "Das Land",
+            "aria-label": "Eingabeformularfeld in einem Adressformular zur Eingabe des Ländernamens"
         }
     },
     "fieldNames": {
