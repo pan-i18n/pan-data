@@ -170,10 +170,10 @@ file gives the translations for the following things:
   * We also looked at PayPal's i18n reference application and the formats, field labels, and validations offered.
 * Google Address implementations
     * libaddressinput [AddressValidationMetadata](https://github.com/google/libaddressinput/wiki/AddressValidationMetadata)
-        - describes the address validation metadata Goolge publishes and includes layouts, required fields,
+        - describes the address validation metadata Google publishes and includes layouts, required fields,
           postal code validation patterns, field names in English, ISO 3166-2 sub-region codes where
           appropriate, subregion names, and latin layouts for Asian regions
-    * The Google libaddressinput data repository: https://chromium-i18n.appspot.com/ssl-address/data/
+    * The Google libaddressinput data repository: https://chromium-i18n.appspot.com/ssl-address/
     * Google Places API [Place Details](https://developers.google.com/maps/documentation/javascript/places#place_details)
        and [supported types](https://developers.google.com/places/web-service/supported_types) for place descriptors
 * HTML 5 autocomplete fields
