@@ -2,6 +2,16 @@
 
 This specification defines the schema of the data and metadata for addresses.
 
+## Goal
+
+The goal for representing addresses is to represent the most common usages for
+addresses is modern online applications, which are:
+
+* Billing
+* Account sign-ups
+* Mapping
+* Geolocation
+
 ## Data Schema
 
 Here is an example data representation of an address in the US:
@@ -85,12 +95,15 @@ file can specify different formats for domestic and international addresses.
 A few countries in the world have more than one common language and/or script, and
 the language/script can sometimes determine the address format. For example, in Hong
 Kong, if the address is written in Chinese with the Chinese traditional script, then
-the Chinese format is used. If the same address is written in English with the Latin
-script, then the English/Western format is used. Address formats can therefore
+the Chinese format is used where the address components are written from largest to
+smallest. If the same address is written in English with the Latin
+script, then the English/Western format is used where the address components are
+generally written from smallest to largest. Address formats can therefore
 depend on the locale, even within a single country.
 
 A formats file can specify different formats for different locales typically used
-within the country.
+within the country. In countries where one locale dominates, the language and
+script may be left out.
 
 ## Meta-data Schema
 
@@ -121,7 +134,7 @@ Metadata can include:
           abbreviations that
           can represent valid values of this field. Free-form inputs should match
           one of the values in this list. The list maps valid inputs to normalized
-          values, such as the ISO region code within a country.
+          values, such as the ISO region codes within a country.
 
 The full json metadata schema can be found [here](../schemas/address-metadata-schema.json).
 
