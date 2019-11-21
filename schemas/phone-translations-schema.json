@@ -1,0 +1,105 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://github.com/pan-i18n/pan-data/schemas/phone-translations-schema.json",
+    "title": "phone-translations",
+    "type": "object",
+    "definitions": {
+        "fieldMetadata": {
+            "type": "object",
+            "description": "Metadata about a particular phone field for constructing an input UI.",
+            "properties": {
+                "label": {
+                    "type": "string",
+                    "description": "The primary label for this field."
+                },
+                "placeholder": {
+                    "type": "string",
+                    "description": "The placeholder text (if any) to display in the input field until the user clicks in it."
+                },
+                "toolTip": {
+                    "type": "string",
+                    "description": "The tool tip text (if any) to display when a user hovers over this input field."
+                }
+            },
+            "required": ["label"]
+        }
+    },
+    "properties": {
+        "fields": {
+            "type": "object",
+            "description": "A mapping between typical input fields and translations for those fields",
+            "properties": {
+                "phoneNumber": {
+                    "$ref": "#/definitions/fieldMetadata",
+                    "description": "An entire free-form phone number with possible formatting characters"
+                },
+                "areaCode": {
+                    "$ref": "#/definitions/fieldMetadata",
+                    "description": "The area code of this phone number"
+                },
+                "subscriberNumber": {
+                    "$ref": "#/definitions/fieldMetadata",
+                    "description": "The unique subscriber number of this phone number"
+                },
+                "countryCode": {
+                    "$ref": "#/definitions/fieldMetadata",
+                    "description": "The country's IDD code of this phone number"
+                },
+                "country": {
+                    "$ref": "#/definitions/fieldMetadata",
+                    "description": "The list of country names to pick from if you want to offer a text-based choice instead of the country IDD code"
+                }
+            }
+        },
+        "fieldNames": {
+            "type": "object",
+            "description": "Translations of the various types of fields in a possible phone number",
+            "properties": {
+                "countryCode": {
+                    "type": "string",
+                    "description": "Translation of this field type"
+                },
+                "iddPrefix": {
+                    "type": "string",
+                    "description": "Translation of this field type"
+                },
+                "vsc": {
+                    "type": "string",
+                    "description": "Translation of this field type"
+                },
+                "cic": {
+                    "type": "string",
+                    "description": "Translation of this field type"
+                },
+                "emergency": {
+                    "type": "string",
+                    "description": "Translation of this field type"
+                },
+                "mobilePrefix": {
+                    "type": "string",
+                    "description": "Translation of this field type"
+                },
+                "trunkAccess": {
+                    "type": "string",
+                    "description": "Translation of this field type"
+                },
+                "serviceCode": {
+                    "type": "string",
+                    "description": "Translation of this field type"
+                },
+                "areaCode": {
+                    "type": "string",
+                    "description": "Translation of this field type"
+                },
+                "subscriberNumber": {
+                    "type": "string",
+                    "description": "Translation of this field type"
+                },
+                "extension": {
+                    "type": "string",
+                    "description": "Translation of this field type"
+                }
+           }
+        }
+    }
+}

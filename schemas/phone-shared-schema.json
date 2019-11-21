@@ -1,0 +1,79 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://github.com/pan-i18n/pan-data/schemas/phone-metadata-schema.json",
+    "title": "phone-metadata",
+    "type": "object",
+    "definitions": {
+        "fieldType": {
+            "type": "object",
+            "description": "Metadata about a particular name field for constructing an input UI.",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "The standard English name of this field for this country"
+                },
+                "required": {
+                    "type": "boolean",
+                    "description": "Whether or not this phone field is required"
+                },
+                "validation": {
+                    "type": "object",
+                    "description": "Information to use to validate values of this field",
+                    "properties": {
+                        "pattern": {
+                            "type": "string",
+                            "description": "A regular expression that will match valid values intended to be used to validate free-form inputs"
+                        },
+                        "enum": {
+                            "type": "object",
+                            "description": "A list of possible values for this field and the normalized value that they map to",
+                            "additionalProperties": {
+                                "type": "string"
+                            }
+                        },
+                        "aliases": {
+                            "type": "object",
+                            "description": "A list of possible aliases for this field and the normalized value that they map to",
+                            "additionalProperties": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "properties": {
+        "countryToIDDCode": {
+            "type": "array",
+            "description": "Give the mapping from an ISO country code to an international direct dialing code",
+            "items": {
+                "type": "string"
+            }
+        },
+        "IDDCodeTocountry": {
+            "type": "array",
+            "description": "Give the reverse mapping from an international direct dialing code to an ISO country code. Since multiple countries share dialing plans, this maps to the default country for each plan",
+            "items": {
+                "type": "string"
+            }
+        },
+        "sharedDialingPlans": {
+            "type": "object",
+            "description": "For those dialing plans that support multiple countries, list the countries in that dialing plan",
+            "properties": {
+                "countryCodes": {
+                    "type": "array",
+                    "description": "The array of ISO codes of the countries that are in that dialing plan",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "default": {
+                    "type": "string",
+                    "description": "The ISO code for the default country for that dialing plan"
+                }
+            }
+        }
+    }
+}

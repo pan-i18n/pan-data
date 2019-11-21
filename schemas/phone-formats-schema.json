@@ -1,0 +1,42 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://github.com/pan-i18n/pan-data/schemas/phone-formats-schema.json",
+    "title": "phone-formats",
+    "description": "Format commonly for phonees in the country of this locale",
+    "type": "object",
+    "definitions": {
+        "lines": {
+            "type": "array",
+            "description": "An array of lines in a formatted phone",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "properties": {
+        "locale": {
+            "type": "object",
+            "description": "A mapping from a locale spec (usually a language + an optional script) to an phone lines definition",
+            "additionalProperties": {
+                "type": "object",
+                "description": "Locale specs to match against",
+                "properties": {
+                    "style": {
+                        "type": "object",
+                        "description": "Define the phone lines for this particular style",
+                        "properties": {
+                            "domestic": {
+                                "$ref": "#/definitions/lines",
+                                "description": "An array of lines in a formatted phone for this locale and style"
+                            },
+                            "international": {
+                                "$ref": "#/definitions/lines",
+                                "description": "An array of lines in a formatted phone for this locale and style"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

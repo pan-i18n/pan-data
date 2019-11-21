@@ -1,0 +1,64 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://github.com/pan-i18n/pan-data/schemas/phone-schema.json",
+    "title": "phone",
+    "type": "object",
+    "properties": {
+        "countryCode": {
+            "type": "string",
+            "description": "If this number is an international direct dial number, this is the country code without the plus"
+        },
+        "iddPrefix": {
+            "type": "string",
+            "description": "The prefix for international direct dialing (IDD). This can either be in the form of a plus character (for UMTS systems) or the IDD access code for the given locale (used mostly by CDMA systems)"
+        },
+        "vsc": {
+            "type": "string",
+            "description": "If this number starts with a VSC (Vertical Service Code, or 'star code'), this field will contain the star and the code together. This is often used by mobile carriers to do special things like contact customer service, or to turn on/off special services"
+        },
+        "cic": {
+            "type": "string",
+            "description": "Carrier Identification Code. For 'dial-around' services (access to other long-distance or international carriers), this is the prefix used to identify the carrier."
+        },
+        "emergency": {
+            "type": "string",
+            "description": "An emergency services number, usually very short."
+        },
+        "mobilePrefix": {
+            "type": "string",
+            "description": "Prefix that introduces a mobile phone number"
+        },
+        "trunkAccess": {
+            "type": "string",
+            "description": "Trunk access code (long-distance access code) for numbers within the same dialing plan"
+        },
+        "serviceCode": {
+            "type": "string",
+            "description": "Like an area code, but it is a required prefix for various service numbers"
+        },
+        "areaCode": {
+            "type": "string",
+            "description": "Geographically-based area codes"
+        },
+        "subscriberNumber": {
+            "type": "string",
+            "description": "The unique number for this phone line. If parsing of the number fails, this is the default field to put all unrecognized digits."
+        },
+        "extension": {
+            "type": "string",
+            "description": "In some countries, extensions can be dialed directly without going through an operator or a voice prompt system. If the number includes an extension, it is given in this field."
+        },
+        "invalid": {
+            "type": "boolean",
+            "description": "Set to false if the number was determined to fall outside of the rules of the dialing plan."
+        },
+        "countryIsoCode": {
+            "type": "string",
+            "description": "The ISO 3166 country code for the country of this phone number"
+        }
+    },
+    "minProperties": 1,
+    "dependencies": {
+        "countryIsoCode": ["countryCode"]
+    }
+} 
