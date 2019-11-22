@@ -14,12 +14,12 @@
         }
     },
     "properties": {
-        "locale": {
+        "styles": {
             "type": "object",
-            "description": "A mapping from a locale spec (usually a language + an optional script) to an phone lines definition",
+            "description": "Formats in a particular style that is commonly used in this locale",
             "additionalProperties": {
                 "type": "object",
-                "description": "Locale specs to match against",
+                "description": "Style name",
                 "properties": {
                     "style": {
                         "type": "object",

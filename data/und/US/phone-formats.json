@@ -1,2 +1,52 @@
 {
+    "styles": {
+        "default": {
+            "complete": [
+                null,
+                null,
+                null,
+                "XXX",
+                "XXXX",
+                "XXXXX",
+                "XXXXXX",
+                "XXX-XXXX",
+                null,
+                null,
+                "(XXX) XXX-XXXX"
+            ],
+            "asYouType": [
+                "X",
+                "XX",
+                "XXX",
+                "XXX-X",
+                "XXX-XX",
+                "XXX-XXX",
+                "XXX-XXXX",
+                "(XXX) XXX-XX",
+                "(XXX) XXX-XXX",
+                "(XXX) XXX-XXXX"
+            ]
+        },
+        "international": {
+            "full": [
+                null,
+                null,
+                null,
+                "+X"
+            ],
+            "asYouType": [
+                "+X",
+                "+X X",
+                "+X XX",
+                "+X XXX",
+                "+X XXX-X",
+                "+X XXX-XX",
+                "+X XXX-XXX",
+                "+X XXX-XXX-X",
+                "+X XXX-XXX-XX",
+                "+X XXX-XXX-XXX",
+                "+X XXX-XXX-XXXX"
+            ]
+        }
+    }
 }

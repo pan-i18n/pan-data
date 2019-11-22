@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://github.com/pan-i18n/pan-data/schemas/phone-geolocation-schema.json",
+    "title": "phone-geolocation",
+    "type": "object",
+    "additionalProperties": {
+        "type": "object",
+        "description": "List of area codes",
+        "properties": {
+            "shortName": {
+                "type": "string",
+                "description": "The short name identifying the geolocation of this area code"
+            },
+            "longName": {
+                "type": "string",
+                "description": "The long name identifying the geolocation of this area code"
+            },
+            "countryCode": {
+                "type": "string",
+                "description": "The ISO country code that this area code is in for use with those dialing plans that span multiple countries"
+            },
+            "regionCode": {
+                "type": "string",
+                "description": "The ISO first level administrative code that this area code is in"
+            },
+            "timezone": {
+                "type": "string",
+                "description": "The IANA name of the time zone that this area code is located in"
+            },
+            "overlays": {
+                "type": "array",
+                "description": "The list of a code that this area code overlays",
+                "items": {
+                    "type": "string"
+                }
+            }
+        },
+        "required": [
+            "shortName",
+            "longName"
+        ]
+    }
+}

@@ -1,2 +1,16 @@
 {
+    "numberingPlan": {
+        "countryCode": "1",
+        "type": "closed",
+        "iddIntroCode": "011",
+        "trunkCode": "1",
+        "skipTrunk": true,
+        "commonFormatChars": " ()-.",
+        "fixedFieldLengths": {
+            "areaCode": 3,
+            "cic": 7,
+            "cic2": 4,
+            "subscriberNumber": 7
+        }
+    }
 }
