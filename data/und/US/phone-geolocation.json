@@ -3,7 +3,10 @@
         "shortName": "New Jersey",
         "longName": "New Jersey: Hackensack, Jersey City, Hoboken, Bayonne, Ridgewood, Union City, Teaneck, New Milford, and northeast New Jersey",
         "countryCode": "US",
-        "regionCode": "NJ"
+        "regionCode": "NJ",
+        "overlays": [
+            "551"
+        ]
     },
     "202": {
         "shortName": "Washington DC",
@@ -15,13 +18,19 @@
         "shortName": "Connecticut",
         "longName": "Connecticut: Bridgeport, Danbury, New Haven, Waterbury, Southwestern Connecticut",
         "countryCode": "US",
-        "regionCode": "CT"
+        "regionCode": "CT",
+        "overlays": [
+            "475"
+        ]
     },
     "204": {
         "shortName": "Manitoba",
         "longName": "Manitoba, Canada",
         "countryCode": "CA",
-        "regionCode": "MB"
+        "regionCode": "MB",
+        "overlays": [
+            "431"
+        ]
     },
     "205": {
         "shortName": "Alabama",
@@ -45,7 +54,10 @@
         "shortName": "Idaho",
         "longName": "Idaho",
         "countryCode": "US",
-        "regionCode": "ID"
+        "regionCode": "ID",
+        "overlays": [
+            "986"
+        ]
     },
     "209": {
         "shortName": "California",
@@ -57,13 +69,24 @@
         "shortName": "Texas",
         "longName": "Texas: San Antonio area",
         "countryCode": "US",
-        "regionCode": "TX"
+        "regionCode": "TX",
+        "overlays": [
+            "726"
+        ]
     },
     "212": {
         "shortName": "New York",
         "longName": "New York: Manhattan except for Marble Hill",
         "countryCode": "US",
-        "regionCode": "NY"
+        "regionCode": "NY",
+        "overlays": [
+            "332",
+            "347",
+            "646",
+            "718",
+            "917",
+            "929"
+        ]
     },
     "213": {
         "shortName": "S California",
@@ -75,19 +98,30 @@
         "shortName": "Texas",
         "longName": "Texas: Dallas area",
         "countryCode": "US",
-        "regionCode": "TX"
+        "regionCode": "TX",
+        "overlays": [
+            "469",
+            "972"
+        ]
     },
     "215": {
         "shortName": "Pennsylvania",
-        "longName": "Pennsylvania: Philadelphia",
+        "longName": "Pennsylvania: greater Philadelphia and its surroundings",
         "countryCode": "US",
-        "regionCode": "PA"
+        "regionCode": "PA",
+        "overlays": [
+            "267",
+            "445"
+        ]
     },
     "216": {
         "shortName": "Ohio",
         "longName": "Ohio: Cleveland",
         "countryCode": "US",
-        "regionCode": "OH"
+        "regionCode": "OH",
+        "overlays": [
+            "440"
+        ]
     },
     "217": {
         "shortName": "Illinois",
@@ -189,7 +223,9 @@
         "regionCode": "BC",
         "overlays": [
             "250",
-            "604"
+            "604",
+            "672",
+            "778"
         ]
     },
     "239": {
@@ -221,13 +257,19 @@
         "shortName": "Michigan",
         "longName": "Michigan: Oakland County",
         "countryCode": "US",
-        "regionCode": "MI"
+        "regionCode": "MI",
+        "overlays": [
+            "947"
+        ]
     },
     "249": {
         "shortName": "Ontario",
-        "longName": "Ontario, Canada",
+        "longName": "Central Ontario, Canada: Sudbury, Sault Ste. Marie, North Bay, Timmins, Barrie",
         "countryCode": "CA",
-        "regionCode": "ON"
+        "regionCode": "ON",
+        "overlays": [
+            "705"
+        ]
     },
     "250": {
         "shortName": "British Columbia",
@@ -236,7 +278,9 @@
         "regionCode": "BC",
         "overlays": [
             "236",
-            "604"
+            "604",
+            "672",
+            "778"
         ]
     },
     "251": {
@@ -267,7 +311,10 @@
         "shortName": "NE Alabama",
         "longName": "Northern and Eastern Alabama: Huntsville, Decatur, Cullman, Gadsden, Florence, Anniston",
         "countryCode": "US",
-        "regionCode": "AL"
+        "regionCode": "AL",
+        "overlays": [
+            "938"
+        ]
     },
     "260": {
         "shortName": "NE Indiana",
@@ -288,9 +335,13 @@
     },
     "267": {
         "shortName": "Pennsylvania",
-        "longName": "Pennsylvania",
+        "longName": "Pennsylvania: greater Philadelphia and its surroundings",
         "countryCode": "US",
-        "regionCode": "PA"
+        "regionCode": "PA",
+        "overlays": [
+            "215",
+            "445"
+        ]
     },
     "268": {
         "shortName": "Antigua/Barbuda",
@@ -307,7 +358,19 @@
         "shortName": "W Kentucky",
         "longName": "Western Kentucky: Owensboro, Paducah, Bowling Green, Hopkinsville, Henderson, Elizabethtown",
         "countryCode": "US",
-        "regionCode": "KY"
+        "regionCode": "KY",
+        "overlays": [
+            "364"
+        ]
+    },
+    "272": {
+        "shortName": "NE Pennsylvania",
+        "longName": "Northeastern Pennsylvania: Scranton, Williamsport, Wilkes-Barre, Nanticoke, Hazleton, Pottsville, Sunbury, Danville, Bloomsburg, Stroudsburg",
+        "countryCode": "US",
+        "regionCode": "PA",
+        "overlays": [
+            "570"
+        ]
     },
     "274": {
         "shortName": "Wisconsin",
@@ -321,11 +384,25 @@
         "countryCode": "US",
         "regionCode": "VA"
     },
+    "279": {
+        "shortName": "California",
+        "longName": "Central California: Sacramento, Davis, Roseville",
+        "countryCode": "US",
+        "regionCode": "CA",
+        "overlays": [
+            "916"
+        ]
+    },
     "281": {
         "shortName": "Texas",
-        "longName": "Texas: Houston",
+        "longName": "Texas: greater Houston",
         "countryCode": "US",
-        "regionCode": "TX"
+        "regionCode": "TX",
+        "overlays": [
+            "346",
+            "713",
+            "832"
+        ]
     },
     "283": {
         "shortName": "SW Ohio",
@@ -339,10 +416,14 @@
         "countryCode": "VG"
     },
     "289": {
-        "shortName": "Ontario",
-        "longName": "Ontario, Canada",
+        "shortName": "SW Ontario",
+        "longName": "Southwestern Ontario, Canada: Niagara Region, Hamilton, Toronto suburbs",
         "countryCode": "CA",
-        "regionCode": "ON"
+        "regionCode": "ON",
+        "overlays": [
+            "365",
+            "905"
+        ]
     },
     "301": {
         "shortName": "W Maryland",
@@ -363,25 +444,37 @@
         "shortName": "Colorado",
         "longName": "Central Colorado: Denver, Boulder, Longmont, Aurora",
         "countryCode": "US",
-        "regionCode": "CO"
+        "regionCode": "CO",
+        "overlays": [
+            "720"
+        ]
     },
     "304": {
         "shortName": "West Virginia",
         "longName": "West Virginia",
         "countryCode": "US",
-        "regionCode": "WV"
+        "regionCode": "WV",
+        "overlays": [
+            "681"
+        ]
     },
     "305": {
         "shortName": "S Florida",
         "longName": "Southern Florida: Miami-Dade, Florida Keys, Miami, Homestead, Coral Gables, Key West",
         "countryCode": "US",
-        "regionCode": "FL"
+        "regionCode": "FL",
+        "overlays": [
+            "786"
+        ]
     },
     "306": {
         "shortName": "Saskatchewan",
         "longName": "Saskatchewan, Canada",
         "countryCode": "CA",
-        "regionCode": "SK"
+        "regionCode": "SK",
+        "overlays": [
+            "639"
+        ]
     },
     "307": {
         "shortName": "Wyoming",
@@ -405,13 +498,20 @@
         "shortName": "S California",
         "longName": "Southern California: Santa Monica, Malibu, Torrance, South Bay, Beverly Hills, Catalina Island, the Los Angeles Westside",
         "countryCode": "US",
-        "regionCode": "CA"
+        "regionCode": "CA",
+        "overlays": [
+            "424"
+        ]
     },
     "312": {
         "shortName": "Illinois",
         "longName": "Illinois: Chicago",
         "countryCode": "US",
-        "regionCode": "IL"
+        "regionCode": "IL",
+        "overlays": [
+            "773",
+            "872"
+        ]
     },
     "313": {
         "shortName": "Michigan",
@@ -429,7 +529,10 @@
         "shortName": "New York",
         "longName": "North Central New York: Syracuse, New York, Utica, Watertown",
         "countryCode": "US",
-        "regionCode": "NY"
+        "regionCode": "NY",
+        "overlays": [
+            "680"
+        ]
     },
     "316": {
         "shortName": "Kansas",
@@ -465,7 +568,10 @@
         "shortName": "E Florida",
         "longName": "Central Eastern Florida: Orlando, Cocoa Beach, St Cloud",
         "countryCode": "US",
-        "regionCode": "FL"
+        "regionCode": "FL",
+        "overlays": [
+            "407"
+        ]
     },
     "323": {
         "shortName": "S California",
@@ -498,7 +604,24 @@
         "shortName": "Illinois",
         "longName": "Illinois: Aurora, Naperville, western Chicago",
         "countryCode": "US",
-        "regionCode": "IL"
+        "regionCode": "IL",
+        "overlays": [
+            "630"
+        ]
+    },
+    "332": {
+        "overlays": [
+            "212",
+            "347",
+            "646",
+            "718",
+            "917",
+            "929"
+        ],
+        "shortName": "New York",
+        "longName": "New York: Manhattan",
+        "countryCode": "US",
+        "regionCode": "NY"
     },
     "334": {
         "shortName": "SE Alabama",
@@ -510,7 +633,10 @@
         "shortName": "North Carolina",
         "longName": "North Carolina: Greensboro, Winston-Salem, Wilkesboro, Roxboro, and northwest North Carolina",
         "countryCode": "US",
-        "regionCode": "NC"
+        "regionCode": "NC",
+        "overlays": [
+            "743"
+        ]
     },
     "337": {
         "shortName": "SW Louisiana",
@@ -522,7 +648,10 @@
         "shortName": "Massachusetts",
         "longName": "Massachusetts",
         "countryCode": "US",
-        "regionCode": "MA"
+        "regionCode": "MA",
+        "overlays": [
+            "781"
+        ]
     },
     "340": {
         "shortName": "U.S. Virgins",
@@ -536,8 +665,11 @@
         "regionCode": "CA"
     },
     "343": {
+        "overlays": [
+            "613"
+        ],
         "shortName": "E Ontario",
-        "longName": "Eastern Ontario, Canada: Ottawa",
+        "longName": "Eastern Ontario, Canada: Ottawa, Kingston",
         "countryCode": "CA",
         "regionCode": "ON"
     },
@@ -546,15 +678,37 @@
         "longName": "The Cayman Islands",
         "countryCode": "KY"
     },
+    "346": {
+        "shortName": "Texas",
+        "longName": "Texas: greater Houston",
+        "countryCode": "US",
+        "regionCode": "TX",
+        "overlays": [
+            "281",
+            "713",
+            "832"
+        ]
+    },
     "347": {
+        "overlays": [
+            "212",
+            "332",
+            "646",
+            "718",
+            "917",
+            "929"
+        ],
         "shortName": "New York",
-        "longName": "New York: The Outer Boroughs",
+        "longName": "New York",
         "countryCode": "US",
         "regionCode": "NY"
     },
     "351": {
-        "shortName": "Massachusetts",
-        "longName": "Massachusetts",
+        "overlays": [
+            "978"
+        ],
+        "shortName": "NE Massachusetts",
+        "longName": "Northeastern Massachusetts: Fitchburg, Peabody",
         "countryCode": "US",
         "regionCode": "MA"
     },
@@ -568,7 +722,10 @@
         "shortName": "W Washington",
         "longName": "Western Washington: Olympia, Vancouver, Bellingham, Bremerton, Port Angeles, Aberdeen",
         "countryCode": "US",
-        "regionCode": "WA"
+        "regionCode": "WA",
+        "overlays": [
+            "564"
+        ]
     },
     "361": {
         "shortName": "SW Texas",
@@ -577,10 +734,23 @@
         "regionCode": "TX"
     },
     "364": {
-        "shortName": "Kentucky",
-        "longName": "Kentucky: west of the Pennyrile Parkway, including Fort Campbell, Henderson, Hopkinsville, Madisonville, Murray, and Paducah",
+        "overlays": [
+            "270"
+        ],
+        "shortName": "W Kentucky",
+        "longName": "Western Kentucky: Owensboro, Paducah, Bowling Green, Hopkinsville, Henderson, Elizabethtown",
         "countryCode": "US",
         "regionCode": "KY"
+    },
+    "365": {
+        "shortName": "SW Ontario",
+        "longName": "Southwestern Ontario, Canada: Niagara Region, Hamilton, Toronto suburbs",
+        "countryCode": "CA",
+        "regionCode": "ON",
+        "overlays": [
+            "289",
+            "905"
+        ]
     },
     "369": {
         "shortName": "NW California",
@@ -589,14 +759,20 @@
         "regionCode": "CA"
     },
     "380": {
+        "overlays": [
+            "614"
+        ],
         "shortName": "Ohio",
-        "longName": "Ohio",
+        "longName": "Ohio: Columbus",
         "countryCode": "US",
         "regionCode": "OH"
     },
     "385": {
+        "overlays": [
+            "801"
+        ],
         "shortName": "Utah",
-        "longName": "Utah",
+        "longName": "Utah: Wasatch Front",
         "countryCode": "US",
         "regionCode": "UT"
     },
@@ -616,19 +792,32 @@
         "shortName": "E Nebraska",
         "longName": "Eastern Nebraska: Omaha, Lincoln, Norfolk, Superior",
         "countryCode": "US",
-        "regionCode": "NE"
+        "regionCode": "NE",
+        "overlays": [
+            "531"
+        ]
     },
     "403": {
         "shortName": "S Alberta",
         "longName": "Southern Alberta, Canada: Calgary, Banff, Red Deer, Medicine Hat, Lethbridge, Brooks",
         "countryCode": "CA",
-        "regionCode": "AL"
+        "regionCode": "AL",
+        "overlays": [
+            "587",
+            "780",
+            "825"
+        ]
     },
     "404": {
         "shortName": "Georgia",
         "longName": "Georgia: Atlanta",
         "countryCode": "US",
-        "regionCode": "GA"
+        "regionCode": "GA",
+        "overlays": [
+            "470",
+            "678",
+            "770"
+        ]
     },
     "405": {
         "shortName": "Oklahoma",
@@ -644,15 +833,21 @@
     },
     "407": {
         "shortName": "E Florida",
-        "longName": "Central Eastern Florida: Orlando, Florida, St. Cloud",
+        "longName": "Central Eastern Florida: Orlando, Cocoa Beach, St Cloud",
         "countryCode": "US",
-        "regionCode": "FL"
+        "regionCode": "FL",
+        "overlays": [
+            "321"
+        ]
     },
     "408": {
         "shortName": "California",
         "longName": "Central California: San Jose, Los Gatos, Milpitas, Sunnyvale, Cupertino, Gilroy",
         "countryCode": "US",
-        "regionCode": "CA"
+        "regionCode": "CA",
+        "overlays": [
+            "669"
+        ]
     },
     "409": {
         "shortName": "SE Texas",
@@ -664,13 +859,21 @@
         "shortName": "E Maryland",
         "longName": "Eastern Maryland: Baltimore, Annapolis, Salisbury",
         "countryCode": "US",
-        "regionCode": "MD"
+        "regionCode": "MD",
+        "overlays": [
+            "443",
+            "667"
+        ]
     },
     "412": {
         "shortName": "W Pennsylvania",
         "longName": "Western Pennsylvania: Pittsburgh area, McKeesport, Braddock, Duquesne",
         "countryCode": "US",
-        "regionCode": "PA"
+        "regionCode": "PA",
+        "overlays": [
+            "724",
+            "878"
+        ]
     },
     "413": {
         "shortName": "W Massachusetts",
@@ -688,13 +891,20 @@
         "shortName": "California",
         "longName": "Central California: San Francisco, Marin County",
         "countryCode": "US",
-        "regionCode": "CA"
+        "regionCode": "CA",
+        "overlays": [
+            "628"
+        ]
     },
     "416": {
         "shortName": "Ontario",
         "longName": "Ontario: Toronto",
         "countryCode": "CA",
-        "regionCode": "ON"
+        "regionCode": "ON",
+        "overlays": [
+            "437",
+            "647"
+        ]
     },
     "417": {
         "shortName": "SW Missouri",
@@ -706,13 +916,19 @@
         "shortName": "Quebec",
         "longName": "Quebec, Canada: Quebec City, Saguenay, Gaspé Peninsula, Côte-Nord, Chibougamau, St-Georges",
         "countryCode": "CA",
-        "regionCode": "QC"
+        "regionCode": "QC",
+        "overlays": [
+            "581"
+        ]
     },
     "419": {
         "shortName": "NW Ohio",
         "longName": "Northwestern Ohio: Toledo, Sylvania, Mansfield, Lima, Findlay, Bryan, Sandusky, Bowling Green",
         "countryCode": "US",
-        "regionCode": "OH"
+        "regionCode": "OH",
+        "overlays": [
+            "567"
+        ]
     },
     "423": {
         "shortName": "E Tennessee",
@@ -721,8 +937,11 @@
         "regionCode": "TN"
     },
     "424": {
-        "shortName": "California",
-        "longName": "California",
+        "overlays": [
+            "310"
+        ],
+        "shortName": "S California",
+        "longName": "Southern California: Santa Monica, Malibu, Torrance, South Bay, Beverly Hills, Catalina Island, the Los Angeles Westside",
         "countryCode": "US",
         "regionCode": "CA"
     },
@@ -733,10 +952,22 @@
         "regionCode": "WA"
     },
     "430": {
-        "shortName": "Texas",
-        "longName": "Texas",
+        "overlays": [
+            "903"
+        ],
+        "shortName": "NE Texas",
+        "longName": "Northeastern Texas: Tyler, Sherman, Longview, Marshall, Palestine, Jacksonville, Carthage",
         "countryCode": "US",
         "regionCode": "TX"
+    },
+    "431": {
+        "overlays": [
+            "204"
+        ],
+        "shortName": "Manitoba",
+        "longName": "Manitoba, Canada",
+        "countryCode": "CA",
+        "regionCode": "MB"
     },
     "432": {
         "shortName": "W Texas",
@@ -756,15 +987,31 @@
         "countryCode": "US",
         "regionCode": "UT"
     },
+    "437": {
+        "overlays": [
+            "416",
+            "647"
+        ],
+        "shortName": "Ontario",
+        "longName": "Ontario, Canada",
+        "countryCode": "CA",
+        "regionCode": "ON"
+    },
     "438": {
+        "overlays": [
+            "514"
+        ],
         "shortName": "Quebec",
-        "longName": "Quebec, Canada",
+        "longName": "Quebec, Canada: Montreal, Île Perrot,  Île Bizard",
         "countryCode": "CA",
         "regionCode": "QC"
     },
     "440": {
-        "shortName": "N Ohio",
-        "longName": "Northern Ohio: Cleveland suburbs, Elyria, Lorain, Oberlin, Ashtabula",
+        "overlays": [
+            "216"
+        ],
+        "shortName": "Ohio",
+        "longName": "Ohio: Cleveland",
         "countryCode": "US",
         "regionCode": "OH"
     },
@@ -774,16 +1021,33 @@
         "countryCode": "BM"
     },
     "442": {
-        "shortName": "California",
-        "longName": "California",
+        "overlays": [
+            "760"
+        ],
+        "shortName": "SE California",
+        "longName": "Southeastern California: Bishop, Ridgecrest, Barstow, Palm Springs, Indio, Imperial County",
         "countryCode": "US",
         "regionCode": "CA"
     },
     "443": {
+        "overlays": [
+            "410",
+            "667"
+        ],
         "shortName": "Maryland",
         "longName": "Maryland",
         "countryCode": "US",
         "regionCode": "MD"
+    },
+    "445": {
+        "shortName": "Pennsylvania",
+        "longName": "Pennsylvania: greater Philadelphia and its surroundings",
+        "countryCode": "US",
+        "regionCode": "PA",
+        "overlays": [
+            "215",
+            "267"
+        ]
     },
     "447": {
         "shortName": "Illinois",
@@ -803,6 +1067,9 @@
         "countryCode": "US"
     },
     "458": {
+        "overlays": [
+            "541"
+        ],
         "shortName": "Oregon",
         "longName": "Oregon: Eugene, Medford, Bend, Pendleton, Corvallis, Ontario, Burns",
         "countryCode": "US",
@@ -815,12 +1082,21 @@
         "regionCode": "IL"
     },
     "469": {
+        "overlays": [
+            "214",
+            "972"
+        ],
         "shortName": "Texas",
         "longName": "Texas",
         "countryCode": "US",
         "regionCode": "TX"
     },
     "470": {
+        "overlays": [
+            "404",
+            "678",
+            "770"
+        ],
         "shortName": "Georgia",
         "longName": "Georgia",
         "countryCode": "US",
@@ -832,8 +1108,11 @@
         "countryCode": "GD"
     },
     "475": {
+        "overlays": [
+            "203"
+        ],
         "shortName": "Connecticut",
-        "longName": "Connecticut",
+        "longName": "Connecticut: Bridgeport, Danbury, New Haven, Waterbury, Southwestern Connecticut",
         "countryCode": "US",
         "regionCode": "CT"
     },
@@ -856,8 +1135,11 @@
         "regionCode": "AZ"
     },
     "484": {
-        "shortName": "Pennsylvania",
-        "longName": "Pennsylvania",
+        "overlays": [
+            "610"
+        ],
+        "shortName": "SE Pennsylvania",
+        "longName": "Southeastern Pennsylvania: Allentown, Reading, Norristown, Chester",
         "countryCode": "US",
         "regionCode": "PA"
     },
@@ -882,7 +1164,10 @@
         "shortName": "NW Oregon",
         "longName": "Northwestern Oregon: Portland, Salem, Hillsboro, St. Helens, Tillamook, Astoria",
         "countryCode": "US",
-        "regionCode": "OR"
+        "regionCode": "OR",
+        "overlays": [
+            "971"
+        ]
     },
     "504": {
         "shortName": "Louisiana",
@@ -912,7 +1197,10 @@
         "shortName": "SE Massachusetts",
         "longName": "Southeastern Massachusetts: Worcester, New Bedford",
         "countryCode": "US",
-        "regionCode": "MA"
+        "regionCode": "MA",
+        "overlays": [
+            "774"
+        ]
     },
     "509": {
         "shortName": "E Washington",
@@ -942,7 +1230,10 @@
         "shortName": "Quebec",
         "longName": "Quebec, Canada: Montreal, Île Perrot,  Île Bizard",
         "countryCode": "CA",
-        "regionCode": "QC"
+        "regionCode": "QC",
+        "overlays": [
+            "438"
+        ]
     },
     "515": {
         "shortName": "Iowa",
@@ -995,8 +1286,11 @@
         "regionCode": "CA"
     },
     "531": {
-        "shortName": "Nebraska",
-        "longName": "Nebraska",
+        "overlays": [
+            "402"
+        ],
+        "shortName": "E Nebraska",
+        "longName": "Eastern Nebraska: Omaha, Lincoln, Norfolk, Superior",
         "countryCode": "US",
         "regionCode": "NE"
     },
@@ -1012,8 +1306,11 @@
         "regionCode": "WI"
     },
     "539": {
-        "shortName": "Oklahoma",
-        "longName": "Oklahoma",
+        "overlays": [
+            "918"
+        ],
+        "shortName": "NE Oklahoma",
+        "longName": "Northeastern Oklahoma: Tulsa, Bartlesville, McAlester, Muskogee, Henryetta",
         "countryCode": "US",
         "regionCode": "OK"
     },
@@ -1027,7 +1324,10 @@
         "shortName": "Oregon",
         "longName": "Oregon: Eugene, Medford, Bend, Pendleton, Corvallis, Ontario, Burns",
         "countryCode": "US",
-        "regionCode": "OR"
+        "regionCode": "OR",
+        "overlays": [
+            "458"
+        ]
     },
     "544": {
         "shortName": "Personal Comm.",
@@ -1035,8 +1335,11 @@
         "countryCode": "US"
     },
     "551": {
+        "overlays": [
+            "201"
+        ],
         "shortName": "New Jersey",
-        "longName": "New Jersey",
+        "longName": "New Jersey: Hackensack, Jersey City, Hoboken, Bayonne, Ridgewood, Union City, Teaneck, New Milford, and northeast New Jersey",
         "countryCode": "US",
         "regionCode": "NJ"
     },
@@ -1076,8 +1379,11 @@
         "regionCode": "IA"
     },
     "564": {
-        "shortName": "Washington",
-        "longName": "Washington: Western Washington",
+        "overlays": [
+            "360"
+        ],
+        "shortName": "W Washington",
+        "longName": "Western Washington: Olympia, Vancouver, Bellingham, Bremerton, Port Angeles, Aberdeen",
         "countryCode": "US",
         "regionCode": "WA"
     },
@@ -1087,8 +1393,11 @@
         "countryCode": "US"
     },
     "567": {
-        "shortName": "Ohio",
-        "longName": "Ohio",
+        "overlays": [
+            "419"
+        ],
+        "shortName": "NW Ohio",
+        "longName": "Northwestern Ohio: Toledo, Sylvania, Mansfield, Lima, Findlay, Bryan, Sandusky, Bowling Green",
         "countryCode": "US",
         "regionCode": "OH"
     },
@@ -1096,11 +1405,17 @@
         "shortName": "NE Pennsylvania",
         "longName": "Northeastern Pennsylvania: Scranton, Williamsport, Wilkes-Barre, Nanticoke, Hazleton, Pottsville, Sunbury, Danville, Bloomsburg, Stroudsburg",
         "countryCode": "US",
-        "regionCode": "PA"
+        "regionCode": "PA",
+        "overlays": [
+            "272"
+        ]
     },
     "571": {
-        "shortName": "Virginia",
-        "longName": "Virginia",
+        "overlays": [
+            "703"
+        ],
+        "shortName": "N Virginia",
+        "longName": "Northern Virginia: Alexandria, Arlington, Fairfax, Prince William, eastern Loudoun counties",
         "countryCode": "US",
         "regionCode": "VA"
     },
@@ -1140,8 +1455,11 @@
         "regionCode": "OK"
     },
     "581": {
+        "overlays": [
+            "418"
+        ],
         "shortName": "Quebec",
-        "longName": "Quebec, Canada",
+        "longName": "Quebec, Canada: Quebec City, Saguenay, Gaspé Peninsula, Côte-Nord, Chibougamau, St-Georges",
         "countryCode": "CA",
         "regionCode": "QC"
     },
@@ -1158,8 +1476,13 @@
         "regionCode": "MI"
     },
     "587": {
-        "shortName": "Alberta",
-        "longName": "Alberta, Canada",
+        "overlays": [
+            "403",
+            "780",
+            "825"
+        ],
+        "shortName": "S Alberta",
+        "longName": "Southern Alberta, Canada: Calgary, Banff, Red Deer, Medicine Hat, Lethbridge, Brooks",
         "countryCode": "CA",
         "regionCode": "AL"
     },
@@ -1177,7 +1500,10 @@
         "shortName": "Mississippi",
         "longName": "Central Mississippi: Jackson, Meridian, Natchez, McComb, Hattiesburg",
         "countryCode": "US",
-        "regionCode": "MS"
+        "regionCode": "MS",
+        "overlays": [
+            "769"
+        ]
     },
     "602": {
         "shortName": "Arizona",
@@ -1198,7 +1524,9 @@
         "regionCode": "BC",
         "overlays": [
             "236",
-            "250"
+            "250",
+            "672",
+            "778"
         ]
     },
     "605": {
@@ -1235,7 +1563,10 @@
         "shortName": "SE Pennsylvania",
         "longName": "Southeastern Pennsylvania: Allentown, Reading, Norristown, Chester",
         "countryCode": "US",
-        "regionCode": "PA"
+        "regionCode": "PA",
+        "overlays": [
+            "484"
+        ]
     },
     "612": {
         "shortName": "Minnesota",
@@ -1247,19 +1578,28 @@
         "shortName": "E Ontario",
         "longName": "Eastern Ontario, Canada: Ottawa, Kingston",
         "countryCode": "CA",
-        "regionCode": "ON"
+        "regionCode": "ON",
+        "overlays": [
+            "343"
+        ]
     },
     "614": {
         "shortName": "Ohio",
         "longName": "Ohio: Columbus",
         "countryCode": "US",
-        "regionCode": "OH"
+        "regionCode": "OH",
+        "overlays": [
+            "380"
+        ]
     },
     "615": {
         "shortName": "Tennessee",
         "longName": "North Central Tennessee: Nashville, Murfreesboro, Springfield, Lebanon, Dickson",
         "countryCode": "US",
-        "regionCode": "TN"
+        "regionCode": "TN",
+        "overlays": [
+            "629"
+        ]
     },
     "616": {
         "shortName": "SW Michigan",
@@ -1271,7 +1611,10 @@
         "shortName": "E Massachusetts",
         "longName": "Eastern Massachusetts: Boston, Cambridge",
         "countryCode": "US",
-        "regionCode": "MA"
+        "regionCode": "MA",
+        "overlays": [
+            "857"
+        ]
     },
     "618": {
         "shortName": "S Illinois",
@@ -1310,28 +1653,55 @@
         "regionCode": "CA"
     },
     "628": {
+        "overlays": [
+            "415"
+        ],
         "shortName": "California",
-        "longName": "Central California: San Francisco",
+        "longName": "Central California: San Francisco, Marin County",
         "countryCode": "US",
         "regionCode": "CA"
+    },
+    "629": {
+        "overlays": [
+            "615"
+        ],
+        "shortName": "Tennessee",
+        "longName": "North Central Tennessee: Nashville, Murfreesboro, Springfield, Lebanon, Dickson",
+        "countryCode": "US",
+        "regionCode": "TN"
     },
     "630": {
         "shortName": "Illinois",
         "longName": "Illinois: Aurora, Naperville, western Chicago suburbs",
         "countryCode": "US",
-        "regionCode": "IL"
+        "regionCode": "IL",
+        "overlays": [
+            "331"
+        ]
     },
     "631": {
         "shortName": "New York",
         "longName": "New York: Suffolk County",
         "countryCode": "US",
-        "regionCode": "NY"
+        "regionCode": "NY",
+        "overlays": [
+            "934"
+        ]
     },
     "636": {
         "shortName": "Missouri",
         "longName": "East Central Missouri: St. Charles, Chesterfield, Union, De Soto, Troy",
         "countryCode": "US",
         "regionCode": "MO"
+    },
+    "639": {
+        "overlays": [
+            "306"
+        ],
+        "shortName": "Saskatchewan",
+        "longName": "Saskatchewan, Canada",
+        "countryCode": "CA",
+        "regionCode": "SK"
     },
     "641": {
         "shortName": "Iowa",
@@ -1343,13 +1713,25 @@
         "shortName": "New York",
         "longName": "New York: Manhattan",
         "countryCode": "US",
-        "regionCode": "NY"
+        "regionCode": "NY",
+        "overlays": [
+            "212",
+            "332",
+            "347",
+            "718",
+            "917",
+            "929"
+        ]
     },
     "647": {
         "shortName": "Ontario",
         "longName": "Ontario, Canada",
         "countryCode": "CA",
-        "regionCode": "ON"
+        "regionCode": "ON",
+        "overlays": [
+            "416",
+            "437"
+        ]
     },
     "649": {
         "shortName": "Turks/Caicos",
@@ -1369,8 +1751,11 @@
         "regionCode": "MN"
     },
     "657": {
-        "shortName": "California",
-        "longName": "California",
+        "overlays": [
+            "714"
+        ],
+        "shortName": "S California",
+        "longName": "Southern California: Anaheim, Santa Ana, Huntington Beach, Orange, Garden Grove, Fullerton, Orange County",
         "countryCode": "US",
         "regionCode": "CA"
     },
@@ -1407,16 +1792,20 @@
         "shortName": "Maryland",
         "longName": "Maryland",
         "countryCode": "US",
-        "regionCode": "MD"
+        "regionCode": "MD",
+        "overlays": [
+            "410",
+            "443"
+        ]
     },
     "669": {
-        "shortName": "California",
-        "longName": "Central California: San Jose",
-        "countryCode": "US",
-        "regionCode": "CA",
         "overlays": [
             "408"
-        ]
+        ],
+        "shortName": "California",
+        "longName": "Central California: San Jose, Los Gatos, Milpitas, Sunnyvale, Cupertino, Gilroy",
+        "countryCode": "US",
+        "regionCode": "CA"
     },
     "670": {
         "shortName": "Marianas",
@@ -1428,11 +1817,28 @@
         "longName": "Guam",
         "countryCode": "GU"
     },
+    "672": {
+        "overlays": [
+            "236",
+            "250",
+            "604",
+            "778"
+        ],
+        "shortName": "British Columbia",
+        "longName": "British Columbia: Vancouver, Abbotsford, Whistler, Chilliwack",
+        "countryCode": "CA",
+        "regionCode": "BC"
+    },
     "678": {
         "shortName": "Georgia",
         "longName": "Georgia",
         "countryCode": "US",
-        "regionCode": "GA"
+        "regionCode": "GA",
+        "overlays": [
+            "404",
+            "470",
+            "770"
+        ]
     },
     "679": {
         "shortName": "Michigan",
@@ -1440,15 +1846,30 @@
         "countryCode": "US",
         "regionCode": "MI"
     },
+    "680": {
+        "overlays": [
+            "315"
+        ],
+        "shortName": "New York",
+        "longName": "North Central New York: Syracuse, New York, Utica, Watertown",
+        "countryCode": "US",
+        "regionCode": "NY"
+    },
     "681": {
+        "overlays": [
+            "304"
+        ],
         "shortName": "West Virginia",
         "longName": "West Virginia",
         "countryCode": "US",
         "regionCode": "WV"
     },
     "682": {
+        "overlays": [
+            "817"
+        ],
         "shortName": "Texas",
-        "longName": "Texas",
+        "longName": "Texas: Fort Worth, Arlington, Grandview, Weatherford, Rhome",
         "countryCode": "US",
         "regionCode": "TX"
     },
@@ -1478,25 +1899,37 @@
         "shortName": "Nevada",
         "longName": "Nevada: Clark County, Las Vegas, Henderson, Boulder City",
         "countryCode": "US",
-        "regionCode": "NV"
+        "regionCode": "NV",
+        "overlays": [
+            "725"
+        ]
     },
     "703": {
         "shortName": "N Virginia",
         "longName": "Northern Virginia: Alexandria, Arlington, Fairfax, Prince William, eastern Loudoun counties",
         "countryCode": "US",
-        "regionCode": "VA"
+        "regionCode": "VA",
+        "overlays": [
+            "571"
+        ]
     },
     "704": {
         "shortName": "North Carolina",
         "longName": "South Central North Carolina: Charlotte, Gastonia, Concord, Salisbury",
         "countryCode": "US",
-        "regionCode": "C"
+        "regionCode": "C",
+        "overlays": [
+            "980"
+        ]
     },
     "705": {
         "shortName": "Ontario",
         "longName": "Central Ontario, Canada: Sudbury, Sault Ste. Marie, North Bay, Timmins, Barrie",
         "countryCode": "CA",
-        "regionCode": "ON"
+        "regionCode": "ON",
+        "overlays": [
+            "249"
+        ]
     },
     "706": {
         "shortName": "Georgia",
@@ -1535,15 +1968,23 @@
     },
     "713": {
         "shortName": "Texas",
-        "longName": "Texas: Houston",
+        "longName": "Texas: greater Houston",
         "countryCode": "US",
-        "regionCode": "TX"
+        "regionCode": "TX",
+        "overlays": [
+            "281",
+            "346",
+            "832"
+        ]
     },
     "714": {
         "shortName": "S California",
         "longName": "Southern California: Anaheim, Santa Ana, Huntington Beach, Orange, Garden Grove, Fullerton, Orange County",
         "countryCode": "US",
-        "regionCode": "CA"
+        "regionCode": "CA",
+        "overlays": [
+            "657"
+        ]
     },
     "715": {
         "shortName": "N Wisconsin",
@@ -1570,7 +2011,15 @@
         "shortName": "New York",
         "longName": "New York: New York City, Marble Hill",
         "countryCode": "US",
-        "regionCode": "NY"
+        "regionCode": "NY",
+        "overlays": [
+            "212",
+            "332",
+            "347",
+            "646",
+            "917",
+            "929"
+        ]
     },
     "719": {
         "shortName": "SE Colorado",
@@ -1579,8 +2028,11 @@
         "regionCode": "CO"
     },
     "720": {
+        "overlays": [
+            "303"
+        ],
         "shortName": "Colorado",
-        "longName": "Colorado",
+        "longName": "Central Colorado: Denver, Boulder, Longmont, Aurora",
         "countryCode": "US",
         "regionCode": "CO"
     },
@@ -1593,7 +2045,29 @@
         "shortName": "SW Pennsylvania",
         "longName": "Southwestern Pennsylvania: New Castle, Washington, Indiana, Uniontown",
         "countryCode": "US",
-        "regionCode": "PA"
+        "regionCode": "PA",
+        "overlays": [
+            "412",
+            "878"
+        ]
+    },
+    "725": {
+        "overlays": [
+            "702"
+        ],
+        "shortName": "Nevada",
+        "longName": "Nevada: Clark County, Las Vegas, Henderson, Boulder City",
+        "countryCode": "US",
+        "regionCode": "NV"
+    },
+    "726": {
+        "overlays": [
+            "210"
+        ],
+        "shortName": "Texas",
+        "longName": "Texas: San Antonio area",
+        "countryCode": "US",
+        "regionCode": "TX"
     },
     "727": {
         "shortName": "Florida",
@@ -1617,7 +2091,10 @@
         "shortName": "New Jersey",
         "longName": "East Central New Jersey: New Brunswick, Neptune, Freehold, Lakewood",
         "countryCode": "US",
-        "regionCode": "NJ"
+        "regionCode": "NJ",
+        "overlays": [
+            "848"
+        ]
     },
     "734": {
         "shortName": "SW Michigan",
@@ -1640,15 +2117,30 @@
             "220"
         ]
     },
+    "743": {
+        "overlays": [
+            "336"
+        ],
+        "shortName": "North Carolina",
+        "longName": "North Carolina: Greensboro, Winston-Salem, Wilkesboro, Roxboro, and northwest North Carolina",
+        "countryCode": "US",
+        "regionCode": "NC"
+    },
     "747": {
+        "overlays": [
+            "818"
+        ],
         "shortName": "S California",
-        "longName": "Southern California: San Fernando Valley",
+        "longName": "Southern California: San Fernando Valley, including Glendale, San Fernando, Northridge, Burbank, Los Angeles suburbs",
         "countryCode": "US",
         "regionCode": "CA"
     },
     "754": {
-        "shortName": "Florida",
-        "longName": "Florida",
+        "overlays": [
+            "954"
+        ],
+        "shortName": "S Florida",
+        "longName": "Southern Florida: Fort Lauderdale, Hollywood, Coral Springs",
         "countryCode": "US",
         "regionCode": "FL"
     },
@@ -1667,7 +2159,10 @@
         "shortName": "SE California",
         "longName": "Southeastern California: Bishop, Ridgecrest, Barstow, Palm Springs, Indio, Imperial County",
         "countryCode": "US",
-        "regionCode": "CA"
+        "regionCode": "CA",
+        "overlays": [
+            "442"
+        ]
     },
     "762": {
         "shortName": "Georgia",
@@ -1699,8 +2194,11 @@
         "countryCode": "DM"
     },
     "769": {
+        "overlays": [
+            "601"
+        ],
         "shortName": "Mississippi",
-        "longName": "Mississippi",
+        "longName": "Central Mississippi: Jackson, Meridian, Natchez, McComb, Hattiesburg",
         "countryCode": "US",
         "regionCode": "MS"
     },
@@ -1708,7 +2206,12 @@
         "shortName": "N Georgia",
         "longName": "Central North Georgia: Marietta, Cedartown, Gainesville, Atlanta suburbs",
         "countryCode": "US",
-        "regionCode": "GA"
+        "regionCode": "GA",
+        "overlays": [
+            "404",
+            "470",
+            "678"
+        ]
     },
     "772": {
         "shortName": "E Florida",
@@ -1720,11 +2223,18 @@
         "shortName": "Illinois",
         "longName": "Illinois: Chicago",
         "countryCode": "US",
-        "regionCode": "IL"
+        "regionCode": "IL",
+        "overlays": [
+            "312",
+            "872"
+        ]
     },
     "774": {
-        "shortName": "Massachusetts",
-        "longName": "Massachusetts",
+        "overlays": [
+            "508"
+        ],
+        "shortName": "SE Massachusetts",
+        "longName": "Southeastern Massachusetts: Worcester, New Bedford",
         "countryCode": "US",
         "regionCode": "MA"
     },
@@ -1735,14 +2245,23 @@
         "regionCode": "NV"
     },
     "778": {
+        "overlays": [
+            "236",
+            "250",
+            "604",
+            "672"
+        ],
         "shortName": "British Columbia",
-        "longName": "British Columbia",
+        "longName": "British Columbia: Vancouver, Abbotsford, Whistler, Chilliwack",
         "countryCode": "CA",
         "regionCode": "BC"
     },
     "779": {
-        "shortName": "Illinois",
-        "longName": "Illinois",
+        "overlays": [
+            "815"
+        ],
+        "shortName": "N Illinois",
+        "longName": "Northern Illinois: Rockford, La Salle, De Kalb, Freeport, Joliet, Plainfield, Crystal Lake",
         "countryCode": "US",
         "regionCode": "IL"
     },
@@ -1750,13 +2269,30 @@
         "shortName": "N Alberta",
         "longName": "Northern Alberta, Canada: Edmonton, Jasper, Grande Prairie, Peace River",
         "countryCode": "CA",
-        "regionCode": "AL"
+        "regionCode": "AL",
+        "overlays": [
+            "403",
+            "587",
+            "825"
+        ]
     },
     "781": {
         "shortName": "E Massachusetts",
         "longName": "Eastern Massachusetts: Saugus, Norwood, Waltham, Woburn, Boston suburbs",
         "countryCode": "US",
-        "regionCode": "MA"
+        "regionCode": "MA",
+        "overlays": [
+            "339"
+        ]
+    },
+    "782": {
+        "overlays": [
+            "902"
+        ],
+        "shortName": "Nova Scotia/PEI",
+        "longName": "Nova Scotia and Prince Edward Island, Canada",
+        "countryCode": "CA",
+        "regionCode": "NS"
     },
     "784": {
         "shortName": "St. Vincent/Grenadines",
@@ -1770,8 +2306,11 @@
         "regionCode": "KS"
     },
     "786": {
-        "shortName": "Florida",
-        "longName": "Florida: Miami-Dade County, Florida Keys",
+        "overlays": [
+            "305"
+        ],
+        "shortName": "S Florida",
+        "longName": "Southern Florida: Miami-Dade, Florida Keys, Miami, Homestead, Coral Gables, Key West",
         "countryCode": "US",
         "regionCode": "FL"
     },
@@ -1779,7 +2318,10 @@
         "shortName": "Puerto Rico",
         "longName": "Puerto Rico",
         "countryCode": "US",
-        "regionCode": "PR"
+        "regionCode": "PR",
+        "overlays": [
+            "939"
+        ]
     },
     "800": {
         "shortName": "Toll-free",
@@ -1790,7 +2332,10 @@
         "shortName": "Utah",
         "longName": "Utah: Wasatch Front",
         "countryCode": "US",
-        "regionCode": "UT"
+        "regionCode": "UT",
+        "overlays": [
+            "385"
+        ]
     },
     "802": {
         "shortName": "Vermont",
@@ -1814,7 +2359,10 @@
         "shortName": "California",
         "longName": "Central Coastal California: Ventura, San Luis Obispo, Santa Barbara, Oxnard, Simi Valley",
         "countryCode": "US",
-        "regionCode": "CA"
+        "regionCode": "CA",
+        "overlays": [
+            "820"
+        ]
     },
     "806": {
         "shortName": "Texas",
@@ -1837,7 +2385,11 @@
     "809": {
         "shortName": "D.R.",
         "longName": "Dominican Republic",
-        "countryCode": "DR"
+        "countryCode": "DR",
+        "overlays": [
+            "829",
+            "849"
+        ]
     },
     "810": {
         "shortName": "Michigan",
@@ -1849,7 +2401,10 @@
         "shortName": "Indiana",
         "longName": "Indiana: Southern Indiana, including Bloomington, Evansville, Jeffersonville, New Albany, and Terre Haute).",
         "countryCode": "US",
-        "regionCode": "IN"
+        "regionCode": "IN",
+        "overlays": [
+            "930"
+        ]
     },
     "813": {
         "shortName": "Florida",
@@ -1867,7 +2422,10 @@
         "shortName": "N Illinois",
         "longName": "Northern Illinois: Rockford, La Salle, De Kalb, Freeport, Joliet, Plainfield, Crystal Lake",
         "countryCode": "US",
-        "regionCode": "IL"
+        "regionCode": "IL",
+        "overlays": [
+            "779"
+        ]
     },
     "816": {
         "shortName": "Missouri",
@@ -1879,23 +2437,46 @@
         "shortName": "Texas",
         "longName": "Texas: Fort Worth, Arlington, Grandview, Weatherford, Rhome",
         "countryCode": "US",
-        "regionCode": "TX"
+        "regionCode": "TX",
+        "overlays": [
+            "682"
+        ]
     },
     "818": {
         "shortName": "S California",
         "longName": "Southern California: San Fernando Valley, including Glendale, San Fernando, Northridge, Burbank, Los Angeles suburbs",
         "countryCode": "US",
-        "regionCode": "CA"
+        "regionCode": "CA",
+        "overlays": [
+            "747"
+        ]
     },
     "819": {
         "shortName": "Quebec",
         "longName": "Quebec, Canada: Sherbrooke, Trois-Rivieres, Abitibi-Témiscamingue, Mauricie, Outaouais, Estrie",
         "countryCode": "CA",
-        "regionCode": "QC"
+        "regionCode": "QC",
+        "overlays": [
+            "873"
+        ]
+    },
+    "820": {
+        "overlays": [
+            "805"
+        ],
+        "shortName": "California",
+        "longName": "Central Coastal California: Ventura, San Luis Obispo, Santa Barbara, Oxnard, Simi Valley",
+        "countryCode": "US",
+        "regionCode": "CA"
     },
     "825": {
-        "shortName": "Alberta",
-        "longName": "Alberta, Canada",
+        "overlays": [
+            "403",
+            "587",
+            "780"
+        ],
+        "shortName": "S Alberta",
+        "longName": "Southern Alberta, Canada: Calgary, Banff, Red Deer, Medicine Hat, Lethbridge, Brooks",
         "countryCode": "CA",
         "regionCode": "AL"
     },
@@ -1906,9 +2487,13 @@
         "regionCode": "NC"
     },
     "829": {
+        "overlays": [
+            "809",
+            "849"
+        ],
         "shortName": "D.R.",
         "longName": "The Dominican Republic",
-        "countryCode": "DR"
+        "countryCode": "DO"
     },
     "830": {
         "shortName": "SW Texas",
@@ -1924,9 +2509,14 @@
     },
     "832": {
         "shortName": "Texas",
-        "longName": "Texas",
+        "longName": "Texas: greater Houston",
         "countryCode": "US",
-        "regionCode": "TX"
+        "regionCode": "TX",
+        "overlays": [
+            "281",
+            "346",
+            "713"
+        ]
     },
     "843": {
         "shortName": "E South Carolina",
@@ -1950,15 +2540,22 @@
         ]
     },
     "848": {
+        "overlays": [
+            "732"
+        ],
         "shortName": "New Jersey",
-        "longName": "New Jersey",
+        "longName": "East Central New Jersey: New Brunswick, Neptune, Freehold, Lakewood",
         "countryCode": "US",
         "regionCode": "NJ"
     },
     "849": {
         "shortName": "D.R.",
         "longName": "The Dominican Republic",
-        "countryCode": "DO"
+        "countryCode": "DO",
+        "overlays": [
+            "809",
+            "829"
+        ]
     },
     "850": {
         "shortName": "NW Florida",
@@ -1973,8 +2570,11 @@
         "regionCode": "NJ"
     },
     "857": {
-        "shortName": "Massachusetts",
-        "longName": "Massachusetts",
+        "overlays": [
+            "617"
+        ],
+        "shortName": "E Massachusetts",
+        "longName": "Eastern Massachusetts: Boston, Cambridge",
         "countryCode": "US",
         "regionCode": "MA"
     },
@@ -1994,11 +2594,17 @@
         "shortName": "Connecticut",
         "longName": "Connecticut: Bristol, Hartford, Norwich and northern and eastern Connecticut",
         "countryCode": "US",
-        "regionCode": "CT"
+        "regionCode": "CT",
+        "overlays": [
+            "959"
+        ]
     },
     "862": {
-        "shortName": "New Jersey",
-        "longName": "New Jersey",
+        "overlays": [
+            "973"
+        ],
+        "shortName": "NW New Jersey",
+        "longName": "Northwestern New Jersey: Newark, Paterson",
         "countryCode": "US",
         "regionCode": "NJ"
     },
@@ -2043,14 +2649,21 @@
         "regionCode": "AR"
     },
     "872": {
+        "overlays": [
+            "312",
+            "773"
+        ],
         "shortName": "Illinois",
-        "longName": "Illinois",
+        "longName": "Illinois: Chicago",
         "countryCode": "US",
         "regionCode": "IL"
     },
     "873": {
+        "overlays": [
+            "819"
+        ],
         "shortName": "Quebec",
-        "longName": "Quebec, Canada",
+        "longName": "Quebec, Canada: Sherbrooke, Trois-Rivieres, Abitibi-Témiscamingue, Mauricie, Outaouais, Estrie",
         "countryCode": "CA",
         "regionCode": "QC"
     },
@@ -2060,8 +2673,12 @@
         "countryCode": "JM"
     },
     "878": {
-        "shortName": "Pennsylvania",
-        "longName": "Pennsylvania",
+        "overlays": [
+            "412",
+            "724"
+        ],
+        "shortName": "W Pennsylvania",
+        "longName": "Western Pennsylvania: Pittsburgh area, McKeesport, Braddock, Duquesne",
         "countryCode": "US",
         "regionCode": "PA"
     },
@@ -2085,13 +2702,19 @@
         "shortName": "Nova Scotia/PEI",
         "longName": "Nova Scotia and Prince Edward Island, Canada",
         "countryCode": "CA",
-        "regionCode": "NS"
+        "regionCode": "NS",
+        "overlays": [
+            "782"
+        ]
     },
     "903": {
         "shortName": "NE Texas",
         "longName": "Northeastern Texas: Tyler, Sherman, Longview, Marshall, Palestine, Jacksonville, Carthage",
         "countryCode": "US",
-        "regionCode": "TX"
+        "regionCode": "TX",
+        "overlays": [
+            "430"
+        ]
     },
     "904": {
         "shortName": "NE Florida",
@@ -2103,7 +2726,11 @@
         "shortName": "SW Ontario",
         "longName": "Southwestern Ontario, Canada: Niagara Region, Hamilton, Toronto suburbs",
         "countryCode": "CA",
-        "regionCode": "ON"
+        "regionCode": "ON",
+        "overlays": [
+            "289",
+            "365"
+        ]
     },
     "906": {
         "shortName": "N Michigan",
@@ -2163,11 +2790,22 @@
         "shortName": "California",
         "longName": "Central California: Sacramento, Davis, Roseville",
         "countryCode": "US",
-        "regionCode": "CA"
+        "regionCode": "CA",
+        "overlays": [
+            "279"
+        ]
     },
     "917": {
+        "overlays": [
+            "212",
+            "332",
+            "347",
+            "646",
+            "718",
+            "929"
+        ],
         "shortName": "New York",
-        "longName": "New York: New York City",
+        "longName": "New York: Manhattan except for Marble Hill",
         "countryCode": "US",
         "regionCode": "NY"
     },
@@ -2175,13 +2813,19 @@
         "shortName": "NE Oklahoma",
         "longName": "Northeastern Oklahoma: Tulsa, Bartlesville, McAlester, Muskogee, Henryetta",
         "countryCode": "US",
-        "regionCode": "OK"
+        "regionCode": "OK",
+        "overlays": [
+            "539"
+        ]
     },
     "919": {
         "shortName": "North Carolina",
         "longName": "North Central North Carolina: Raleigh, Durham, Chapel Hill, Oxford, Goldsboro",
         "countryCode": "US",
-        "regionCode": "NC"
+        "regionCode": "NC",
+        "overlays": [
+            "984"
+        ]
     },
     "920": {
         "shortName": "E Wisconsin",
@@ -2205,13 +2849,39 @@
         "shortName": "New York",
         "longName": "New York",
         "countryCode": "US",
-        "regionCode": "NY"
+        "regionCode": "NY",
+        "overlays": [
+            "212",
+            "332",
+            "347",
+            "646",
+            "718",
+            "917"
+        ]
+    },
+    "930": {
+        "overlays": [
+            "812"
+        ],
+        "shortName": "Indiana",
+        "longName": "Indiana: Southern Indiana, including Bloomington, Evansville, Jeffersonville, New Albany, and Terre Haute).",
+        "countryCode": "US",
+        "regionCode": "IN"
     },
     "931": {
         "shortName": "Tennessee",
         "longName": "Tennessee: Clarksville, Columbia, Manchester, Cookeville",
         "countryCode": "US",
         "regionCode": "TN"
+    },
+    "934": {
+        "overlays": [
+            "631"
+        ],
+        "shortName": "New York",
+        "longName": "New York: Suffolk County",
+        "countryCode": "US",
+        "regionCode": "NY"
     },
     "935": {
         "shortName": "S California",
@@ -2232,12 +2902,18 @@
         "regionCode": "OH"
     },
     "938": {
-        "shortName": "Alabama",
-        "longName": "Alabama: Huntsville",
+        "overlays": [
+            "256"
+        ],
+        "shortName": "NE Alabama",
+        "longName": "Northern and Eastern Alabama: Huntsville, Decatur, Cullman, Gadsden, Florence, Anniston",
         "countryCode": "US",
         "regionCode": "AL"
     },
     "939": {
+        "overlays": [
+            "787"
+        ],
         "shortName": "Puerto Rico",
         "longName": "Puerto Rico",
         "countryCode": "US",
@@ -2256,8 +2932,11 @@
         "regionCode": "FL"
     },
     "947": {
+        "overlays": [
+            "248"
+        ],
         "shortName": "Michigan",
-        "longName": "Michigan",
+        "longName": "Michigan: Oakland County",
         "countryCode": "US",
         "regionCode": "MI"
     },
@@ -2288,7 +2967,10 @@
         "shortName": "S Florida",
         "longName": "Southern Florida: Fort Lauderdale, Hollywood, Coral Springs",
         "countryCode": "US",
-        "regionCode": "FL"
+        "regionCode": "FL",
+        "overlays": [
+            "754"
+        ]
     },
     "956": {
         "shortName": "S Texas",
@@ -2297,8 +2979,11 @@
         "regionCode": "TX"
     },
     "959": {
+        "overlays": [
+            "860"
+        ],
         "shortName": "Connecticut",
-        "longName": "Connecticut",
+        "longName": "Connecticut: Bristol, Hartford, Norwich and northern and eastern Connecticut",
         "countryCode": "US",
         "regionCode": "CT"
     },
@@ -2309,8 +2994,11 @@
         "regionCode": "CO"
     },
     "971": {
+        "overlays": [
+            "503"
+        ],
         "shortName": "NW Oregon",
-        "longName": "Northwestern Oregon: Portland, Salem, Hillsboro, Beaverton",
+        "longName": "Northwestern Oregon: Portland, Salem, Hillsboro, St. Helens, Tillamook, Astoria",
         "countryCode": "US",
         "regionCode": "OR"
     },
@@ -2318,13 +3006,20 @@
         "shortName": "Texas",
         "longName": "Texas",
         "countryCode": "US",
-        "regionCode": "TX"
+        "regionCode": "TX",
+        "overlays": [
+            "214",
+            "469"
+        ]
     },
     "973": {
         "shortName": "NW New Jersey",
         "longName": "Northwestern New Jersey: Newark, Paterson",
         "countryCode": "US",
-        "regionCode": "NJ"
+        "regionCode": "NJ",
+        "overlays": [
+            "862"
+        ]
     },
     "975": {
         "shortName": "Missouri",
@@ -2336,7 +3031,10 @@
         "shortName": "NE Massachusetts",
         "longName": "Northeastern Massachusetts: Fitchburg, Peabody",
         "countryCode": "US",
-        "regionCode": "MA"
+        "regionCode": "MA",
+        "overlays": [
+            "351"
+        ]
     },
     "979": {
         "shortName": "SE Texas",
@@ -2345,14 +3043,20 @@
         "regionCode": "TX"
     },
     "980": {
+        "overlays": [
+            "704"
+        ],
         "shortName": "North Carolina",
-        "longName": "North Carolina",
+        "longName": "South Central North Carolina: Charlotte, Gastonia, Concord, Salisbury",
         "countryCode": "US",
-        "regionCode": "NC"
+        "regionCode": "C"
     },
     "984": {
+        "overlays": [
+            "919"
+        ],
         "shortName": "North Carolina",
-        "longName": "North Carolina",
+        "longName": "North Central North Carolina: Raleigh, Durham, Chapel Hill, Oxford, Goldsboro",
         "countryCode": "US",
         "regionCode": "NC"
     },
@@ -2362,10 +3066,19 @@
         "countryCode": "US",
         "regionCode": "LA"
     },
+    "986": {
+        "overlays": [
+            "208"
+        ],
+        "shortName": "Idaho",
+        "longName": "Idaho",
+        "countryCode": "US",
+        "regionCode": "ID"
+    },
     "989": {
         "shortName": "Michigan",
         "longName": "Central Michigan: Alpena, Mt. Pleasant, Bay City, Saginaw, Midland, Owosso",
         "countryCode": "US",
         "regionCode": "MI"
-    },
+    }
 }
