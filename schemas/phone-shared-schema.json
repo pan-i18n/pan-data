@@ -3,46 +3,6 @@
     "$id": "http://github.com/pan-i18n/pan-data/schemas/phone-shared-schema.json",
     "title": "phone-shared",
     "type": "object",
-    "definitions": {
-        "fieldType": {
-            "type": "object",
-            "description": "Metadata about a particular name field for constructing an input UI.",
-            "properties": {
-                "name": {
-                    "type": "string",
-                    "description": "The standard English name of this field for this country"
-                },
-                "required": {
-                    "type": "boolean",
-                    "description": "Whether or not this phone field is required"
-                },
-                "validation": {
-                    "type": "object",
-                    "description": "Information to use to validate values of this field",
-                    "properties": {
-                        "pattern": {
-                            "type": "string",
-                            "description": "A regular expression that will match valid values intended to be used to validate free-form inputs"
-                        },
-                        "enum": {
-                            "type": "object",
-                            "description": "A list of possible values for this field and the normalized value that they map to",
-                            "additionalProperties": {
-                                "type": "string"
-                            }
-                        },
-                        "aliases": {
-                            "type": "object",
-                            "description": "A list of possible aliases for this field and the normalized value that they map to",
-                            "additionalProperties": {
-                                "type": "string"
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    },
     "properties": {
         "countryToIDDCode": {
             "type": "array",

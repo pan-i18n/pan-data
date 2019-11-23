@@ -29,7 +29,7 @@
             },
             "overlays": {
                 "type": "array",
-                "description": "The list of a code that this area code overlays",
+                "description": "The list of area codes that this area code overlays",
                 "items": {
                     "type": "string"
                 }

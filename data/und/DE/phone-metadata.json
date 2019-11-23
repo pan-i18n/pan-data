@@ -1,2 +1,14 @@
 {
+    "countryCode": "49",
+    "iddIntroCode": "00",
+    "trunkCode": "0",
+    "skipTrunk": true,
+    "findExtensions": true,
+    "dialingPlan": "open",
+    "commonFormatChars": " ()-/.",
+    "fixFieldLengths": {
+        "service2": 6,
+        "service3": 7,
+        "minLocalLength": 3
+    }
 }
