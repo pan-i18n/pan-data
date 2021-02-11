@@ -1,0 +1,127 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://github.com/pan-i18n/pan-data/schemas/name-metadata-schema.json",
+    "definitions": {
+        "fieldMetadata": {
+            "type": "object",
+            "description": "Metadata about a particular name field for constructing an input UI.",
+            "properties": {
+                "label": {
+                    "type": "string",
+                    "description": "The primary label for this field."
+                },
+                "placeholder": {
+                    "type": "string",
+                    "description": "The placeholder text (if any) to display in the input field until the user clicks in it."
+                },
+                "toolTip": {
+                    "type": "string",
+                    "description": "The tool tip text (if any) to display when a user hovers over this input field."
+                }
+            },
+            "required": ["label"]
+        }
+    },
+    "title": "nameMetadata",
+    "type": "object",
+    "properties": {
+        "fields": {
+            "type": "object",
+            "description": "Information about input fields",
+            "properties": {
+                "given": {
+                    "$ref": "#/definitions/fieldMetadata",
+                    "description": "Metadata about the given name field."
+                },
+                "middle": {
+                    "$ref": "#/definitions/fieldMetadata",
+                    "description": "The person's middle names, possibly separated into an array of words. eg. [\"Maria\", \"Theresa\", \"Catherine\"]"
+                },
+                "family": {
+                    "$ref": "#/definitions/fieldMetadata",
+                    "description": "The person's family name, possibly separated into an array of words. eg. [\"van\", \"der\", \"Molen\"]"
+                },
+                "familyPhonetic": {
+                    "$ref": "#/definitions/fieldMetadata",
+                    "description": "The person's family name given phonetically, often used for sorting purposes."
+                },
+                "patronymic": {
+                    "$ref": "#/definitions/fieldMetadata",
+                    "description": "The person's patronymic name."
+                },
+                "nickname": {
+                    "$ref": "#/definitions/fieldMetadata",
+                    "description": "The person's nickname."
+                },
+                "prefix": {
+                    "$ref": "#/definitions/fieldMetadata",
+                    "description": "Any prefixes to the person's name."
+                },
+                "honorific": {
+                    "$ref": "#/definitions/fieldMetadata",
+                    "description": "Honorific titles for a person."
+                },
+                "suffix": {
+                    "$ref": "#/definitions/fieldMetadata",
+                    "description": "Any suffixes to the person's given name."
+                }
+            }
+        },
+        "sortByHeadWord": {
+            "type": "boolean",
+            "description": "Whether or not this locale sorts family names by the head word (true) or the auxillary words (false)."
+        },
+        "compoundFamilyNames": {
+            "type": "boolean",
+            "description": "Whether or not this locale allows for compound family names."
+        },
+        "spaceSeparated": {
+            "type": "boolean",
+            "description": "Whether or not names in this locale are separated from each other with whitespace."
+        },
+        "conjunctions": {
+            "type": "array",
+            "description": "list of conjunction and disjunction words for names of multiple people or families",
+            "items": {
+                "type": "string"
+            }
+        },
+        "auxillaries": {
+            "type": "array",
+            "description": "List of auxillary words to the family names commonly used in this locale.",
+            "items": {
+                "type": "string"
+            }
+        },
+        "honorifics": {
+            "type": "array",
+            "description": "List of prefixes or suffixes that are used as honorific terms, such as 'Mr.' or '-san'.",
+            "items": {
+                "type": "string"
+            }
+        },
+        "prefixes": {
+            "type": "array",
+            "description": "List of non-honorific prefixes commonly used in this locale",
+            "items": {
+                "type": "string"
+            }
+        },
+        "suffixes": {
+            "type": "array",
+            "description": "List of non-honorific sufixes commonly used in this locale",
+            "items": {
+                "type": "string"
+            }
+        },
+        "knownFamilyNames": {
+            "type": "object",
+            "description": "List of common family names used in this locale mapped to a romanization of those names",
+            "properties": {
+                "*": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

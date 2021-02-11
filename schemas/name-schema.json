@@ -1,0 +1,90 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://github.com/pan-i18n/pan-data/schemas/name-schema.json",
+    "definitions": {
+        "stringOrArray": {
+            "type": [
+                "string",
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "minItems": 1
+                }
+            ],
+            "description": "A name part, possibly separated into an array of words. eg. [\"Maria\", \"Theresa\", \"Catherine\"]"
+        }
+    },
+    "title": "name",
+    "type": "object",
+    "properties": {
+        "given": {
+            "type": "string",
+            "description": "The person's given name."
+        },
+        "middle": {
+            "$ref": "#/definitions/stringOrArray",
+            "description": "The person's middle names, possibly separated into an array of words. eg. [\"Maria\", \"Theresa\", \"Catherine\"]"
+        },
+        "family": {
+            "type": [
+                "string",
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "minItems": 1
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "maternal": {
+                            "$ref": "#/definitions/stringOrArray",
+                            "description": "The maternal family name"
+                        },
+                        "paternal": {
+                            "$ref": "#/definitions/stringOrArray",
+                            "description": "The paternal family name"
+                        }
+                    }
+                }
+            ],
+            "description": "The person's family name, possibly separated into an array of words. eg. [\"van\", \"der\", \"Molen\"]"
+        },
+        "familyPhonetic": {
+            "type": "string",
+            "description": "The person's family name given phonetically, often used for sorting purposes."
+        },
+        "patronymic": {
+            "type": "string",
+            "description": "The person's patronymic name."
+        },
+        "nickname": {
+            "type": "string",
+            "description": "The person's nickname."
+        },
+        "prefix": {
+            "$ref": "#/definitions/stringOrArray",
+            "description": "Any prefixes to the person's name."
+        },
+        "honorific": {
+            "$ref": "#/definitions/stringOrArray",
+            "description": "Honorific titles for a person."
+        },
+        "suffix": {
+            "$ref": "#/definitions/stringOrArray",
+            "description": "Any suffixes to the person's given name."
+        },
+        "gender": {
+            "type": "string",
+            "enum": ["male", "female", "other"],
+            "description": "The gender of the person, if known and required to format the name properly."
+        }
+    },
+    "minProperties": 1,
+    "dependencies": {
+        "familyPhonetic": ["family"]
+    }
+}
