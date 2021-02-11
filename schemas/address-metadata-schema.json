@@ -1,0 +1,98 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://github.com/pan-i18n/pan-data/schemas/address-metadata-schema.json",
+    "title": "address-metadata",
+    "type": "object",
+    "definitions": {
+        "fieldType": {
+            "type": "object",
+            "description": "Metadata about a particular name field for constructing an input UI.",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "The standard English name of this field for this country"
+                },
+                "required": {
+                    "type": "boolean",
+                    "description": "Whether or not this address field is required"
+                },
+                "validation": {
+                    "type": "object",
+                    "description": "Information to use to validate values of this field",
+                    "properties": {
+                        "pattern": {
+                            "type": "string",
+                            "description": "A regular expression that will match valid values intended to be used to validate free-form inputs"
+                        },
+                        "enum": {
+                            "type": "object",
+                            "description": "A list of possible values for this field and the normalized value that they map to",
+                            "additionalProperties": {
+                                "type": "string"
+                            }
+                        },
+                        "aliases": {
+                            "type": "object",
+                            "description": "A list of possible aliases for this field and the normalized value that they map to",
+                            "additionalProperties": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "properties": {
+        "fieldTypes": {
+            "type": "object",
+            "description": "Give the mapping from fields to their types",
+            "properties": {
+                "streetAddress": {
+                    "$ref": "#/definitions/fieldType",
+                    "description": "The street and premises number of the address"
+                },
+                "building": {
+                    "$ref": "#/definitions/fieldType",
+                    "description": "The building name or number of the address"
+                },
+                "postOfficeBox": {
+                    "$ref": "#/definitions/fieldType",
+                    "description": "The post office box information of this address"
+                },
+                "locality": {
+                    "$ref": "#/definitions/fieldType",
+                    "description": "The name of the city/town/village of this address"
+                },
+                "dependentLocality": {
+                    "$ref": "#/definitions/fieldType",
+                    "description": "The name of the dependent (sub) locality of this address"
+                },
+                "region": {
+                    "$ref": "#/definitions/fieldType",
+                    "description": "The name of the state/province/etc. of this address"
+                },
+                "subregion": {
+                    "$ref": "#/definitions/fieldType",
+                    "description": "The name of the subregion of this address"
+                },
+                "subsubregion": {
+                    "$ref": "#/definitions/fieldType",
+                    "description": "The name of the subsubregion of this address"
+                },
+                "postalCode": {
+                    "$ref": "#/definitions/fieldType",
+                    "description": "The postal code/postcode/zip code of the address"
+                },
+                "postOffice": {
+                    "$ref": "#/definitions/fieldType",
+                    "description": "The name of the post office of the address"
+                },
+                "country": {
+                    "$ref": "#/definitions/fieldType",
+                    "description": "The name of the country of this address"
+                }
+            }
+        }
+    }
+}

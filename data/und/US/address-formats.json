@@ -1,0 +1,17 @@
+{
+    "locale": {
+        "Latn": {
+            "style": {
+                "domestic": [
+                    "{streetAddress}",
+                    "{locality}, {region} {postalCode}"
+                ],
+                "international": [
+                    "{streetAddress}",
+                    "{locality}, {region} {postalCode}",
+                    "{country}"
+                ]
+            }
+        }
+    }
+}
